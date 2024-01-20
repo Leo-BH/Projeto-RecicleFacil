@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pontos de Coleta</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <nav>
+    <img src="./imagens/Recicla Fácil. Logo.png" alt="Logo">
+    <div>
+      <a href="./index.html">INÍCIO</a>
+      <a href="dados.html">MEUS DADOS</a>
+      <a href="pontosdecoleta.html">PONTOS DE COLETA</a>
+      <a href="coletadomiciliar.html">COLETA DOMICILIAR</a>
+    </ul>
+    <div>
+      <button>LOGIN</button>
+      <a href="instagram.com"><img src=""></a>
+      <a href="facebook.com"><img src=""></a>
+    </div>
+  </nav>
+
+  <!--Descrição inicial e imagem principal-->
+  <section>
+    <div>
+      <h1>Pontos de Coleta</h1>
+      <p>
+        Contamos com a sua parceria para expandir essa iniciativa e transformar a maneira como lidamos com o descarte
+        de materiais recicláveis. Junte-se a nós e faça parte dessa jornada de mudança!
+      </p>
+    </div>
+    <div>
+      <img src="imagens/coletores.jpg" alt="imagem_principal">
+    </div>
+  </section>
+
+  <!--Instruções para Busca Pontos de Coleta-->
+  <section>
+    <div>
+      <h1>Como encontrar um ponto de coleta?</h1>
+    </div>
+    <div>
+      <ol>
+        <li>Inicie a pesquisa informando o estado e a cidade onde deseja encontrar um ponto de coleta.</li>
+        <li> Informe o tipo de material que deseja descartar.</li>
+        <li>Clique no botão pesquisar</li>
+        <li>Visualize os resultados da pesquisa no campo resultados.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!--Busca Pontos de coleta-->
+  <section>
+    <h1>ENCONTRE AQUI</h1>
+    <form action="busca.pontos" method="get" autocomplete="on">
+      <div>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="est">
+          <option value="">--Escolha--</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+        </select>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cid" name="cidade"> <br>
+
+        <label for="materiais">Tipo de material:</label>
+        <select name="materiais" id="mat">
+          <option value="">--Escolha--</option>
+          <option value="papel">Papel</option>
+          <option value="metal">metal</option>
+          <option value="plast">plástico</option>
+          <option value="vidro">Vidro</option>
+          <option value="organ">Orgânico</option>
+          <option value="eletr">Eletrônicos</option>
+        </select> <br>
+        <input type="submit" value="Pesquisar">
+      </div>
+    </form>
+    </div>
+
+    <!--Lista com o resultado da pesquisa-->
+    <div>
+      <h2>Resultado</h2>
+      <ul>
+        <li>Nome: </li>
+        <li>Endereço: </li>
+        <li>Contato: </li>
+      </ul>
+    </div>
+
+    <!--Imagem da fachada da empresa parceira (ou geolocalização...)-->
+    <div>
+      <img src="./imagens/imagem_mapa.jpg" alt="mapa">
+    </div>
+  </section>
+  
+  <footer>
+    <img alt="Logo" src="imagens/Recicla Fácil. Logo.png">
+    <span>Copyright © 2023 Recicle Fácil. Todos direitos reservados.</span>
+    <div>
+      <a href="contatos.html">CONTATE-NOS</a>
+      <a href="sobre.html">SOBRE NÓS</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
