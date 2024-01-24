@@ -75,3 +75,23 @@ section#princ {
 
 }
 
+/*Tela " Index - Inicio"*/
+
+section#inicial {
+    img {
+        height: 690px;
+        width: 1200px;
+        align-items: center;
+    }
+
+}
+section#inicio {
+    background-color:#d9d9d9;
+    display: flex;
+    padding: 150px, 175px;
+    align-items: center;
+  h1 {
+       font-family: Geneva, Verdana,      Tahoma, sans-serif;
+       color: #023e8a;
+     }
+}
