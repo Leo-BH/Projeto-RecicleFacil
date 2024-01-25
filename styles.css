@@ -15,9 +15,10 @@ nav {
     left: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     img {
-        height: 100px;
-        left: 100px;
+        height: 150px;
+        left: 150px;
     }
+    
     a#ig {
        img{
         height: 30px;
@@ -55,7 +56,8 @@ nav {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
+    color: rgba(2, 62, 138, 1);
 }
 
 a:hover{
@@ -75,23 +77,71 @@ section#princ {
 
 }
 
-/*Tela " Index - Inicio"*/
 
-section#inicial {
-    img {
-        height: 690px;
-        width: 1200px;
+/* Tela "Index" */
+
+#princ{
+    text-align: center;
+    img{
+        width: 900px;
+    }
+}
+.sobre{
+    max-width: 1000px;
+    margin-left: 150px;
+    h1{
+        font-size: 36px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(2, 62, 138, 1);
+    }
+    h3{
+        text-align: justify;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(88, 47, 14, 1);
+    }
+    h2{
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(88, 47, 14, 1);
+    }
+}
+.tipos{
+    background-color: rgba(247, 247, 247, 1);
+    padding: 20px;
+
+    #mater{
+        h1{
+            text-align: center;
+            font-size: 26px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: rgba(2, 62, 138, 1);
+        }
+    }    
+    .container1{
+        display: flex;
+        justify-content: space-around;
         align-items: center;
+        padding: 20px;
+
+        #papel{
+           background-image: url(imagens/Papel_reduz.jpg);
+           width: 370px;
+           height: 300px;
+           border-radius: 20px;
+        }
+        #vidro{
+            background-image: url(imagens/vidro);
+            width: 370px;
+            height: 300px;
+            border-radius: 20px;
+        }
+        #plastico{
+            background-image: url(imagens/plastico_reduz.jpg);
+            width: 370px;
+            height: 300px;
+            border-radius: 20px;
+        }
     }
 
-}
-section#inicio {
-    background-color:#d9d9d9;
-    display: flex;
-    padding: 150px, 175px;
-    align-items: center;
-  h1 {
-       font-family: Geneva, Verdana,      Tahoma, sans-serif;
-       color: #023e8a;
-     }
+
 }
