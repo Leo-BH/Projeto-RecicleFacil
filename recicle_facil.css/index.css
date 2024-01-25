@@ -1,0 +1,92 @@
+/* Tela "Index" */
+
+#princ{
+    text-align: center;
+    img{
+        width: 900px;
+    }
+}
+.sobre{
+    max-width: 1000px;
+    margin-left: 150px;
+    h1{
+        font-size: 36px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(2, 62, 138, 1);
+    }
+    h3{
+        text-align: justify;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(88, 47, 14, 1);
+    }
+    h2{
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(88, 47, 14, 1);
+    }
+}
+.tipos{
+    background-color: rgba(247, 247, 247, 1);
+    padding: 20px;
+
+    #mater{
+        h1{
+            text-align: center;
+            font-size: 26px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: rgba(2, 62, 138, 1);
+        }
+    }    
+    .container1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+
+        #papel{
+           background-image: url(/imagens/Papel_reduz.jpg);
+           width: 350px;
+           height: 280px;
+           border-radius: 20px;
+        }
+        #vidro{
+            background-image: url(/imagens/garrafas_vidro.jpg);
+            width: 350px;
+            height: 280px;
+            border-radius: 20px;
+        }
+        #plastico{
+            background-image: url(/imagens/plastico_reduz.jpg);
+            width: 350px;
+            height: 280px;
+            border-radius: 20px;
+        }
+    }
+    .container2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+
+        #aluminio{
+            background-image: url(/imagens/aluminio_reduz.jpg);
+            width: 350px;
+            height: 280px;
+            border-radius: 20px;
+        }
+        #organico{
+            background-image: url(/imagens/organico_reduz.jpg);
+            width: 350px;
+            height: 280px;
+            border-radius: 20px;
+        }
+        #eletronico{
+            background-image: url(/imagens/lixo_eletrônico.jpg);
+            width: 350px;
+            height: 280px;
+            border-radius: 20px;
+        }
+    }
+
+
+}
