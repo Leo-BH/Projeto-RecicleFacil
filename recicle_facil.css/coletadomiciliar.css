@@ -1,0 +1,95 @@
+/* Tela Coleta Domiciliar*/
+@charset "UTF-8";
+body {
+  background-color: #e7f1e8
+}
+main {
+    background-color: #d9d9d9;
+    align-items: center;
+    text-align: center;
+    width: 1300px;
+    padding: 20px;
+    margin: auto;
+}
+#inicio {
+    background-color: #d9d9d9;
+    align-items: center;
+    text-align: center;
+
+
+}
+#buscaColetor {
+    align-items: center;
+    text-align: justify;
+    display: block;
+    li {
+        align-items: center;
+        text-align: justify;
+        display: block;  
+    }
+}
+#formColetor{
+    display: block;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cadColetor1{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px; 
+    justify-content:space-around;
+    align-self: auto;
+         #foto_Coletor {
+            width: 150px;
+            height: 150px;
+            align-content: space-between; 
+            } 
+        .infoColetor{
+            box-sizing: content-box;  
+            width: 300px;
+            height: 300px;
+            padding: 10px;  
+            font-size: 16px;
+        }    
+        }
+
+.cadColetor2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+         #foto_Coletor   {
+            width: 350px;
+            height: 280px;
+            border-radius: 20px; align-items: baseline;
+            }
+        }
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #582f0e;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: #023e8a;
+    text-align: center;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;    
+    color: #582f0e;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    align-items: center;
+}
