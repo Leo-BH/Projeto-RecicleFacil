@@ -15,9 +15,10 @@ nav {
     left: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     img {
-        height: 100px;
-        left: 100px;
+        height: 150px;
+        left: 150px;
     }
+    
     a#ig {
        img{
         height: 30px;
@@ -55,23 +56,10 @@ nav {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
+    color: rgba(2, 62, 138, 1);
 }
 
 a:hover{
     color: red;
  }
-
- /* Tela "Sobre Nós"*/
-
-section#princ {
-    display: flex;
-    justify-content: space-around;
-    padding: 5rem 1rem;
-    img {
-        height: 490px;
-        width: 1200px;
-    }
-
-}
-
