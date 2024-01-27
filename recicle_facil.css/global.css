@@ -41,11 +41,18 @@ nav {
         background-color: rgba(2, 62, 138, 1);
         border-radius: 5px;
         color: white;
+        
+    }
+    #log:hover{
+        background-color: gray;
     }
     #cad{
         background-color: rgba(2, 62, 138, 1);
         border-radius: 5px;
         color: white;
+    }
+    #cad:hover{
+        background-color:gray;
     }
 }
 
@@ -72,5 +79,8 @@ a {
 }
 
 a:hover{
-    color: red;
+    color: gray;
  }
+span{
+    color: rgba(2, 62, 138, 1);
+}
