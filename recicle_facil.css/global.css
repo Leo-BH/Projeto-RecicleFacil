@@ -37,6 +37,16 @@ nav {
         align-items: center;
         gap: 5px;
     }
+    #log{
+        background-color: rgba(2, 62, 138, 1);
+        border-radius: 5px;
+        color: white;
+    }
+    #cad{
+        background-color: rgba(2, 62, 138, 1);
+        border-radius: 5px;
+        color: white;
+    }
 }
 
  footer {
@@ -58,6 +68,7 @@ nav {
 a {
     text-decoration: none;
     color: rgba(2, 62, 138, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:hover{
