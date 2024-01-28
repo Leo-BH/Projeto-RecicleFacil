@@ -7,6 +7,78 @@ main {
     align-items: center;
     text-align: center;
     width: 1300px;
-    padding: 20px;
     margin: auto;
+    justify-content: center;
+}
+#inicio {
+    background-color: #d9d9d9;
+    align-items: center;
+    text-align: center;
+
+    p{
+      height: 100px; 
+      width: 900px;
+      color: #582f0e;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: justify;
+      padding: 50px;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+
+    }
+ 
+}
+
+
+.buscaPonto{
+  text-align: justify;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-width: 3px;
+  border-radius: 20px;
+  width: 700px;
+  color: #582f0e;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: auto;
+
+}
+.formBusca {
+  background-color:rgb(191, 208, 241);
+  height: 300px; 
+  width: 500px;
+  margin: auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 10%;
+  
+
+} 
+p{
+  height: 100px; 
+  width: 900px;
+  color: #582f0e;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+.box {
+  display: block;
+  margin: auto;
+  border: 2px solid #ccc;
+  padding: 10px;
+  justify-content: center;
+  height: 300px; 
+  width: 500px;
+ }
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#023e8a;
+  font-size: 1.5em;
 }
