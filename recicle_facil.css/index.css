@@ -30,7 +30,7 @@
 .tipos{
     background-color: #d9d9d9;
     padding: 20px;
-     }
+
     #mater{
         h1{
             text-align: center;
@@ -50,18 +50,72 @@
            width: 350px;
            height: 280px;
            border-radius: 20px;
+           display: flex;
+           align-items: end;
+           justify-content: center;
         }
         #vidro{
             background-image: url(/imagens/garrafas_vidro.jpg);
             width: 350px;
             height: 280px;
             border-radius: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
         }
         #plastico{
             background-image: url(/imagens/plastico_reduz.jpg);
             width: 350px;
             height: 280px;
             border-radius: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+        }
+        .txt_papel{
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            width: 280px;
+            height: 100px;
+            padding-top: 0;
+            h2{
+                font-size: 16px;
+                color: rgba(2, 62, 138, 1);
+            }
+            h3{
+                font-size: 12px;
+            }
+        }
+        .txt_vidro{
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            width: 280px;
+            height: 100px;
+            padding-top: 0;
+            h2{
+                font-size: 16px;
+                color: rgba(2, 62, 138, 1);
+            }
+            h3{
+                font-size: 12px;
+            }
+        }
+        .txt_plast{
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            width: 280px;
+            height: 100px;
+            padding-top: 0;
+            h2{
+                font-size: 16px;
+                color: rgba(2, 62, 138, 1);
+            }
+            h3{
+                font-size: 12px;
+            }
         }
     }
     .container2{
@@ -71,24 +125,175 @@
         padding: 20px;
 
         #aluminio{
-            background-image: url(/imagens/aluminio_reduz.jpg);
+            background-image: url(/imagens/latas_aluminio.jpg);
             width: 350px;
             height: 280px;
             border-radius: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
         }
         #organico{
             background-image: url(/imagens/organico_reduz.jpg);
             width: 350px;
             height: 280px;
             border-radius: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
         }
         #eletronico{
             background-image: url(/imagens/lixo_eletrônico.jpg);
             width: 350px;
             height: 280px;
             border-radius: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+        }
+        .txt_metal{
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            width: 280px;
+            height: 100px;
+            padding-top: 0;
+            h2{
+                font-size: 16px;
+                color: rgba(2, 62, 138, 1);
+            }
+            h3{
+                font-size: 12px;
+            }
+        }
+        .organ{
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            width: 280px;
+            height: 100px;
+            padding-top: 0;
+            h2{
+                font-size: 16px;
+                color: rgba(2, 62, 138, 1);
+            }
+            h3{
+                font-size: 12px;
+            }
+        }
+        .eletro{
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            width: 280px;
+            height: 100px;
+            padding-top: 0;
+            h2{
+                font-size: 16px;
+                color: rgba(2, 62, 138, 1);
+            }
+            h3{
+                font-size: 12px;
+            }
         }
     }
-
-
+}
+#pilares{
+    padding: 40px;
+}
+.moeda_verde{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    img{
+        width: 500px;
+        height: 350px;
+        border-radius: 20px;
+        margin-left: 100px;
+    }
+}
+#moeda{
+    width: 500px;
+    margin-right: 100px;
+    h2{
+        font-size: 20px;
+        color: rgba(2, 62, 138, 1);
+    }
+    h3{
+        font-size: 12px;
+    }
+    a{
+        border: 1px solid chartreuse;
+        border-radius: 10px;
+        background-color: chartreuse;
+        color: white;
+        display: flex;
+        width: 200px;
+        
+    }
+}
+.parceiro{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 100px;
+    img{
+        width: 500px;
+        height: 350px;
+        border-radius: 20px;
+        margin-left: 100px;
+    }
+}
+#parce{
+    width: 500px;
+    margin-right: 100px;
+    h2{
+        font-size: 20px;
+        color: rgba(2, 62, 138, 1);
+    }
+    h3{
+        font-size: 12px;
+    }
+    a{
+        border: 1px solid chartreuse;
+        border-radius: 10px;
+        background-color: chartreuse;
+        color: white;
+        display: flex;
+        width: 200px;
+        
+    }
+}
+.mudanca{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 100px;
+    img{
+        width: 500px;
+        height: 350px;
+        border-radius: 20px;
+        margin-left: 100px;
+    }
+}
+#mudan{
+    width: 500px;
+    margin-right: 100px;
+    h2{
+        font-size: 20px;
+        color: rgba(2, 62, 138, 1);
+    }
+    h3{
+        font-size: 12px;
+    }
+    a{
+        border: 1px solid chartreuse;
+        border-radius: 10px;
+        background-color: chartreuse;
+        color: white;
+        display: flex;
+        width: 200px;
+        
+    }
+}
  
