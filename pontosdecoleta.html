@@ -21,6 +21,7 @@
         <a href="coletadomiciliar.html">COLETA DOMICILIAR</a>
       </ul>
     </div>  
+    <!-- botão de login com <a href> para a pgina de login--> 
     <div class="botao">
       <button>LOGIN</button>
       <a id="ig" href="instagram.com"><img src="imagens/instagram-100.png"></a>
@@ -30,9 +31,9 @@
 
 <main>
   <!--Descrição inicial e imagem principal-->
-  <section>
+  <section id="inicio">
     <div>
-      <h1>Pontos de Coleta</h1>
+      <h1>Pontos de Coleta de Materias Recicláveis</h1>
       <p>
         Contamos com a sua parceria para expandir essa iniciativa e transformar a maneira como lidamos com o descarte
         de materiais recicláveis. Junte-se a nós e faça parte dessa jornada de mudança!
@@ -45,9 +46,9 @@
   </section>
 
   <!--Instruções para Busca Pontos de Coleta-->
-  <section>
+  <section class="buscaPonto">
     <div>
-      <h1>Como encontrar um ponto de coleta?</h1>
+      <h1>Como encontrar um Ponto de Coleta?</h1>
     </div>
     <div>
       <ol>
@@ -60,8 +61,8 @@
   </section>
 
   <!--Busca Pontos de coleta-->
-  <section>
-    <h1>ENCONTRE AQUI</h1>
+  <section class="formBusca">
+    <h1>Encontre  Aqui !</h1>
     <form action="busca.pontos" method="get" autocomplete="on">
       <div>
         <label for="estado">Estado:</label>
@@ -90,17 +91,33 @@
         <input type="submit" value="Pesquisar">
       </div>
     </form>
+    </section>
+
     </div>
 
-    <!--Lista com o resultado da pesquisa-->
-    <div>
-      <h2>Resultado</h2>
-      <ul>
-        <li>Nome: </li>
-        <li>Endereço: </li>
-        <li>Contato: </li>
-      </ul>
+  <!--Resultado da busca de pontos de coleta -->
+  <div class="section">
+    <h1>Escolha o Pontos de Coleta</h1>
+    <p>Clique em saiba mais para obter mais informações do ponto de coleta como o endereço, horário de funcionamento, tipos de materias aceitos e outra orientações importantes </p>
+    <div class="box">
+      <img src="imagens/lixeiras_reduz.jpg" width="150" height="150">>
+      <p>Ecoponto  reciclaveis</p>
+      <h4>Trague seus Descartes e ganhe Moeda Verde</h4>
     </div>
+
+    <div class="box">
+      <img src="imagens/cesto reciclagem.png" width="150" height="150">>
+      <p>Ferro Velho Tudo Novo</p>
+      <h4>Trague seus Descartes e ganhe Moeda Verde</h4>
+    </div>
+
+    <div class="box">
+      <img src="imagens/container  com lixos separados.jpg" width="150" height="150">
+      <p>Rede Superbom Mercados</p>
+      <h4>Trague seus Descartes e ganhe Moeda Verde</h4>
+    </div>
+  </div>
+
 
     <!--Imagem da fachada da empresa parceira (ou geolocalização...)-->
     <div>
@@ -108,6 +125,7 @@
     </div>
   </section>
 </main>
+<!--Rodape-->
   <footer>
     <img src="imagens/logo.rf_pequeno.png" alt="Logo" >
     <span>Copyright © 2023 Recicle Fácil. Todos direitos reservados.</span>
