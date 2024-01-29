@@ -3,10 +3,88 @@
 section#princ {
     display: flex;
     justify-content: space-around;
-    padding: 5rem 1rem;
+    
     img {
         height: 490px;
-        width: 1200px;
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+#sobre{
+    align-items: center;
+    text-align: center;
+
+         h1 {text-align: left;
+        font-size: 26px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(2, 62, 138, 1);
+            }
+       }
+ 
+   h3{
+    height: auto; 
+    width: 900px;
+    color: #582f0e;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans  Unicode', Geneva,      Verdana, sans-serif;
+    text-align: justify;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   }
+.principios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+
+
+.missao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+    #missao{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 20px;
+     margin: auto;
+     }
+
+ .visao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    }  
+
+   #visao{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 20px;
+     margin: auto;
     }
 
-}
+ .valores{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        margin: auto;
+ }     
+       #valores{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         padding: 20px;
+         margin: auto;
+    
+        }
+    }
