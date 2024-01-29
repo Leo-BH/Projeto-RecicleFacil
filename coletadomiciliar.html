@@ -31,166 +31,176 @@
 
   <main>
   <!-- Imagem principal grande--> 
-  <section id="inicio">
-     <div>
-      <h1>Solicite uma Coleta Domiciliar</h1>
+    <section id="inicio">
+      <div>
+        <h1>Solicite uma Coleta Domiciliar</h1>
       
-      <p>Através do seu comprometimento com a solicitação de um coletor domiciliar, você está liderando uma mudança positiva, mostrando que pequenas ações individuais podem gerar um grande impacto coletivo.</p>
-      <img alt="Coletores" src="imagens/coletor de lixo de moto_reduz.jpg" width="900" height="auto">
+        <p>Através do seu comprometimento com a solicitação de um coletor domiciliar, você está liderando uma mudança positiva, mostrando que pequenas ações individuais podem gerar um grande impacto coletivo.</p>
+        <img alt="Coletores" src="imagens/coletor de lixo de moto_reduz.jpg" width="900" height="auto">
 
-     </section >
-     <section id= buscaColetor>
-    
-      <h1>Como encontrar um  Coletor Parceiro?</h1>
+    </section >
+        <section id= buscaColetor>
+          <h1>Como encontrar um  Coletor Parceiro?</h1>
+          <div class="pesquisa"> 
+              <ol>  
+                <li>
+                    Inicie a pesquisa, digite o endereço desejado onde você está procurando um coletor parceiro.       
+                </li>
+                <li>
+                    Em seguida, escolha o tipo de material que você deseja descartar/reciclar.
+                </li>
+                <li>
+                    Isso pode incluir opções como papel, plástico, vidro, metal, orgânicos, entre outros.
+                </li>
+                <li>
+                    Visualize os resultados da sua pesquisa.
+                </li>
+                <li>
+                    Eles seram exibidos em uma lista, mostrando os pontos de coleta disponíveis para o tipo de material selecionado.
+                </li>
+              </ol>
+          </div>
+        </section>
 
-      <div class="pesquisa"> 
-      <ol>  
-        <li>
-          Inicie a pesquisa, digite o endereço desejado onde você está procurando um coletor parceiro.       
-        </li>
-        <li>
-          Em seguida, escolha o tipo de material que você deseja descartar/reciclar.
-        </li>
-        <li>
-          Isso pode incluir opções como papel, plástico, vidro, metal, orgânicos, entre outros.
-        </li>
-        <li>
-          Visualize os resultados da sua pesquisa.
-        </li>
-        <li>
-          Eles seram exibidos em uma lista, mostrando os pontos de coleta disponíveis para o tipo de material selecionado.
-        </li>
-      </ol>
-    </div>
-   </section>
+    <!--Formulario para a busca dos coletores --> 
+    <section id="formColetor">   
+        <div>
+            <form action="coletor"> 
+                <h1>Solicite Aqui</h1>
+                <section class="formBusca">
+                    <h2><strong>Faça sua busca por um coletor parceiro.</strong></h2>
+                    <section action="Buscar Coletor">
+                    <label for="state">Estado:</label><br>
+                    <input type="text" id="state"      name="state"><br>
+                    <label for="city">Cidade:</label><br>
+                    <input type="text" id="city"  name="city"><br>
 
-   <!--Formulario para a busca dos coletores --> 
-   <section id="formColetor">   
-   <div>  
-      <h1>Solicite Aqui</h1>
-      <section class="formBusca">
-        <h2><strong>Faça sua busca por um coletor parceiro.</strong></h2>
-        <form action="Buscar Coletor">
-          <label for="state">Estado:</label><br>
-          <input type="text" id="state"      name="state"><br>
+                    <label for="cars">Tipo de Material</label>
+                    <select name="type of material" id="material" form="Tipo de Material">
 
-          <label for="city">Cidade:</label><br>
-          <input type="text" id="city"  name="city"><br>
+                    <option value="paper">Papel/Papelão</option>
 
-          <label for="cars">Tipo de Material</label>
-          <select name="type of material" id="material" form="Tipo de Material">
+                    <option value="plastic">Plástico</option>
 
-          <option value="paper">Papel/Papelão</option>
-
-          <option value="plastic">Plástico</option>
-
-          <option value="glass">Vidro</option>
-          <option value="metal">Metal</option>
-          <option value="organic">Orgânico</option>
-          <option value="eletronic">Eletrônico</option>
+                    <option value="glass">Vidro</option>
+                    <option value="metal">Metal</option>
+                    <option value="organic">Orgânico</option>
+                    <option value="eletronic">Eletrônico</option>
           
-          </select><br>
-          <input type="submit" value="Solicitar coleta">
-        </form>
-      </section>
-    </div>
+                
+                    <input type="submit" value="Solicitar coleta">
+                </section>
+            </form>
+        </div>
+    </section>
+    
 
 <!--Resultado da busca de coletores -->
 <!--div com os cadastros dos coletores parceiros  informativo + imagem  -->
-<section id="cadastroColetor"> 
-  <div class="container1">
-    <div class="maria">
-      <div class="imagem">
-        <img src="imagens/ana paula padrao_reduz.jpg"  height="250px" width="250px">
-      </div>
-      <div id="txt_maria">
-          <h2>Maria Aparecida</h2>
-          <h3> Perfil: 35 anos, trabalha na reciclagem de papel.
-            Experiência: Atua há 7 anos na coleta e separação de papel.
-            Motivação: Procura por papelão, revistas e jornais para reciclar.
-          </h3>
-      </div>  
-    </div>
-        
-    <div id="joao">
-      <div class="imagem">
-      <img src="imagens/joao paulo_reduz.jpg"  height="250px" width="250px">
-    </div>
-      <div class="txt_joao">
-        <h2>João Paulo</h2>
-        <h3>  Perfil: 40 anos, especializado na reciclagem de plástico.
-        Experiência: Trabalha há 10 anos coletando e separando plásticos.
-        Motivação: Busca garrafas PET, sacolas plásticas e embalagens para reciclar.
-        </h3>
-      </div>  
-    </div>
+    <section id="cadastroColetor"> 
+        <div class="container1">
+            <div class="maria">
+                <div id="imagem_maria">
+                <img src="imagens/ana paula padrao_reduz.jpg"  height="250px" width="250px">
+                </div>
+                <div id="txt_maria">
+                    <h2>Maria Aparecida</h2>
+                    <h3> Perfil: 35 anos, trabalha na reciclagem de papel.
+                          Experiência: Atua há 7 anos na coleta e separação de papel.
+                          Motivação: Procura por papelão, revistas e jornais para reciclar.
+                    </h3>
+                </div>
+                <div id="botao_maria">
+                  <a href="link_maria"><strong>Veja mais informações</strong></a>
+                </div>
+            </div>  
+    
+            <div class="joao">
+                <div id="imagem_joao">
+                    <img src="imagens/joao paulo_reduz.jpg"  height="250px" width="250px">
+                </div>
+                <div id="txt_joao">
+                    <h2>João Paulo</h2>
+                    <h3>Perfil: 40 anos, especializado na reciclagem de plástico.
+                        Experiência: Trabalha há 10 anos coletando e separando plásticos.
+                        Motivação: Busca garrafas PET, sacolas plásticas e embalagens para reciclar.
+                    </h3>
+                </div>
+                <div id="botao_joao">
+                    <a href="link_joao"><strong>Veja mais informações</strong></a>
+                </div>
+            </div>  
 
-    <div id="paulo">
-      <div class="imagem">
-        <img src="imagens/Paulo machado_reduz.jpg"  height="250px" width="250px">
-      </div>
-      <div class="txt_paulo">
-        <h2>Paulo Machado</h2>
-        <h3> Perfil: 30 anos, concentra-se na reciclagem de vidro.
-         Experiência: Tem 5 anos de experiência coletando vidro.
-         Motivação: Coleta garrafas, potes e frascos de vidro.
-        </h3>
-      </div>   
-    </div>
-  </div>
+            <div clas="paulo">
+                <div id="imagem_paulo">
+                    <img src="imagens/Paulo machado_reduz.jpg"  height="250px" width="250px">
+                </div>
+                <div id="txt_paulo">
+                    <h2>Paulo Machado</h2>
+                    <h3>Perfil: 30 anos, concentra-se na reciclagem de vidro.
+                        Experiência: Tem 5 anos de experiência coletando vidro.
+                        Motivação: Coleta garrafas, potes e frascos de vidro.
+                    </h3>
+                </div>
+                <div id="botao_paulo">
+                    <a href="link_joao"><strong>Veja mais informações</strong></a>
+                </div>
+            </div>  
+        </div>
+      
 
-  <div class="container2">
-    <div id="jose">
-      <div class="imagem">
-        <img src="imagens/jose augusto.jpg" height="250px" width="250px">
-      </div>
-      <div class="txt_jose">
-        <h2>José Augusto</h2>
-        <h3> Perfil: 28 anos, se concentra na reciclagem de eletrônicos.
-        Experiência: Atua há 4 anos coletando e encaminhando eletrônicos descartados.
-        Motivação: Coleta celulares, computadores e eletrodomésticos antigos.
-        </h3>
-      </div>
-    </div>
+        <div class="container2">
+          <div id="jose">
+          <div class="imagem">
+            <img src="imagens/jose augusto.jpg" height="250px" width="250px">
+          </div>
+          <div class="txt_jose">
+            <h2>José Augusto</h2>
+            <h3> Perfil: 28 anos, se concentra na reciclagem de eletrônicos.
+            Experiência: Atua há 4 anos coletando e encaminhando eletrônicos descartados.
+            Motivação: Coleta celulares, computadores e eletrodomésticos antigos.
+            </h3>
+          </div>
+        </div>
 
-    <div id="cataki">
-      <div class="imagem">
-        <img src="imagens/Esteira  catadores separando lixo.jpg"  height="250px" width="250px">
-      </div>
-      <div class="cataki">
-        <h2>Cataki</h2>
-        <h3>Perfil: 50 anos, recolhe uma variedade de materiais recicláveis.
-        Experiência: Trabalha há 15 anos coletando diferentes tipos de materiais : Coleta uma ampla gama de materiais recicláveis
-        </h3>
-      </div>  
-    </div>    
+        <div id="cataki">
+          <div class="imagem">
+            <img src="imagens/Esteira  catadores separando lixo.jpg"  height="250px" width="250px">
+          </div>
+          <div class="cataki">
+            <h2>Cataki</h2>
+            <h3>Perfil: 50 anos, recolhe uma variedade de materiais recicláveis.
+            Experiência: Trabalha há 15 anos coletando diferentes tipos de materiais : Coleta uma ampla gama de materiais recicláveis
+            </h3>
+          </div>  
+        </div>    
 
-    <div id="fuca">
-      <div class="imagem">
-        <img src="imagens/container  com lixos separados.jpg" height="250px" width="250px">
-      </div>
-      <div class="fuca">
-        <h2>Fuça_Fuça </h2>
-        <h3> Recolhe uma variedade de   materiais recicláveis.
-        Coletor autonomo atua com todos os tipos de materiais.
-        Motivação: Coleta garrafas, potes e frascos de vidro.
-        </h3>
-      </div>  
-    </div>
-  </div>         
- </section>
+        <div id="fuca">
+          <div class="imagem">
+            <img src="imagens/container  com lixos separados.jpg" height="250px" width="250px">
+          </div>
+          <div class="fuca">
+            <h2>Fuça_Fuça </h2>
+            <h3> Recolhe uma variedade de   materiais recicláveis.
+            Coletor autonomo atua com todos os tipos de materiais.
+            Motivação: Coleta garrafas, potes e frascos de vidro.
+            </h3>
+          </div>  
+        </div>
+      </div>      
+    </section>
 
-</main>
+  </main>
 
 <!-- footer final da pagina-->
-<footer>
-  <img alt="Logo" src="imagens/logo.rf_pequeno.png">
-  <span>Copyright © 2023 Recicle Fácil. Todos direitos reservados.</span>
-  <div>
-    <a href="contatos.html"><strong>CONTATE-NOS</strong></a>
-    <a href="sobre.html"><strong>SOBRE NÓS</strong></a>
-  </div>
-</footer>
+  <footer>
+    <img alt="Logo" src="imagens/logo.rf_pequeno.png">
+    <span>Copyright © 2023 Recicle Fácil. Todos direitos reservados.</span>
+    <div>
+      <a href="contatos.html"><strong>CONTATE-NOS</strong></a>
+      <a href="sobre.html"><strong>SOBRE NÓS</strong></a>
+    </div>
+  </footer>
 
 </body>
 
