@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre nós</title>
+  <title>Cadastro</title>
   <link rel="stylesheet" href="recicle_facil.css/global.css">
   <link rel="stylesheet" href="recicle_facil.css/cadastro.css">
 </head>
@@ -31,165 +31,185 @@
     </nav>
 
   
-  <main>
+    <main>
 
-    <section>
-      <div >
-        <h2>Por que criar uma conta?</h2>
-        <p clas="texto-incentivo">Juntos, podemos fazer a diferença, simplificando o processo de reciclagem e promovendo práticas sustentáveis.
+      <div class="container1">
+        <div class="texto">
+          <h2 id="titulo-texto">Por que criar uma conta?</h2>
+          <p class="corpo-texto">
+            Juntos, podemos fazer a diferença, simplificando o processo de reciclagem e promovendo práticas sustentáveis.
            Sua experiência e dedicação são essenciais para construirmos um futuro mais verde e próspero para todos.</p>
-        <p clas="texto-incentivo">
-          Contamos com a sua parceria para expandir essa iniciativa e transformar a maneira como lidamos com o descarte de materiais recicláveis.
+          <p>
+    
+          <p class="corpo-texto"> Contamos com a sua parceria para expandir essa iniciativa e transformar a maneira como lidamos com o descarte de materiais recicláveis.
            Junte-se a nós no Recicle Fácil e faça parte dessa jornada de mudança!
-        </p>
+          </p>
+        </div>
+        <div id="entre-agora">
+            <span>Já tem uma conta?</span><a href="login.html">Entre agora</a>
+        </div>
       </div>
-    </section>
-
-    <span>Já tem uma conta?</span><a href="login.html">Entre agora</a>
-    <br>
-
-    <!-- Seleção do tipo de cadastro - apenas um formulário irá aparecer após a seleção, será ajustado por JavaScript-->
+        
+      <div class="container2">
+  
+        <h1 id="cadastro">Cadastre-se</h1>
+        <div class="opcao-cadastro">
+        <!-- Seleção do tipo de cadastro - apenas um formulário irá aparecer após a seleção, será ajustado por JavaScript-->
+          <label for="tipo-cadastro">Escolha o tipo de cadastro:</label>
+          <br>
+          <input type="radio" value="usuario" name="tipo-cadastro" checked >Usuário</input>
+          <input type="radio" value="coletor" name="tipo-cadastro">Coletor</input>
+          <input type="radio" value="pontodecoleta" name="tipo-cadastro">Ponto de Coleta</input>
+      </div>
+  
+        <!-- Formulário de cadastro de usuários finais -->
     
-    <label for="tipo-cadastro">Escolha o tipo de cadastro:</label>
-    <br>
-    <input type="radio" value="usuario" name="tipo-cadastro">Usuário</input>
-    <input type="radio" value="coletor" name="tipo-cadastro">Coletor</input>
-    <input type="radio" value="pontodecoleta" name="tipo-cadastro">Ponto de Coleta</input>
-
-
-    <!-- Formulário de cadastro de usuários finais -->
-   
-    <form id="cadastro-usuario">
-      <fieldset id="dados-pessoais">
-        <legend>Dados pessoais</legend>
-
-        <label for="nome">Nome completo:</label>
+      <form class="form-usuario">
+  
+        <div class="input-group">
+  
+          <div class ="input-box">
+              <label for="nome">Nome completo:</label>
+              <input id="nome" type="text" placeholder="Digite seu nome completo" required>
+          </div>
+                <!-- CPF: Será recebido input como texto, usaremos Regex no JavaScript para validar e formatar
+                o dado para padronizar no banco de dados posteriormente-->
+          <div class="input-box">
+              <label for="cpf">CPF:</label>
+              <input id="cpf" type="text" placeholder="000.000.000-00" required>
+          </div>
+  
+          <div class="input-box">
+              <label for="telefone">Telefone:</label>
+              <input id="telefone" type="tel" placeholder="(xx) xxxxx-xxxx" required>
+          </div>
+  
+          <div class="input-box">
+              <label for="email">E-mail:</label>
+              <input id="email" type="email" placeholder="Digite seu e-mail"required>
+          </div>
+                
+          <div class="input-box">
+              <label for="senha">Senha:</label> 
+              <input id="senha" type="password" placeholder="********" required>
+          </div>
+                
+          <div class="input-box">
+              <label for="senha">Confimação de senha:</label>
+              <input id="senha" type="password" placeholder="********" required>
+          </div>
+  
+          <div class="termo">
+              <input type="checkbox">
+              <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label> 
+          </div>
+        </div>    
+          <div id="input-button">
+              <input type="submit" value="Concluir cadastro">
+          </div>
+                    
+              
+        </form>
+      
+      <!-- Formulário de cadastro de coletores
+  
+      <form id="cadastro-coletor">
+        <fieldset id="dados-pessoais">
+          <legend>Dados pessoais</legend>
+  
+          <label for="nome">Nome completo:</label>
+          <br>
+          <input id="name" type="text" required>        
+          <br>
+  
+          <label for="email">E-mail:</label>
+          <br>
+          <input id="email" type="email" required>
+          <br>
+          
+          <label for="telefone">Telefone:</label>
+          <br>
+          <input id="telefone" type="tel" required>
+          <br>
+  
+         CPF: Será recebido input como texto, usaremos Regex no JavaScript para validar e formatar
+          o dado para padronizar no banco de dados posteriormente
+          <label for="cpf">CPF:</label>
+          <br>
+          <input id="cpf" type="text" required>
+        </fieldset> -->
+          
+        <!--- <fieldset id="coleta">
+          <legend>Coleta</legend>
+          Materiais coletados:
+          <br>
+          <input type="checkbox" value="plastico"><label for="plastico">Plástico</label>
+          <br>
+          <input type="checkbox" value="vidro"><label for="vidro">Vidro</label>
+          <br>
+          <input type="checkbox" value="papel"><label for="papel">Papel</label>
+          <br>
+          <input type="checkbox" value="metal"><label for="metal">Metal</label>
+          <br>
+          <input type="checkbox" value="eletronicos"><label for="eletronicos">Eletrônicos</label>
+          <br>
+          <br>
+          <label for="cep">CEP:</label>
+          <br>
+          <input type="text" id="cep">
+          <br>
+          <label for="raio">Raio atendido em km:</label>
+          <input type="number" id="raio">
+        </fieldset>
+  
+        <input type="checkbox">
+        <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label>
         <br>
-        <input id="name" type="text" required>
+        <input type="submit" value="Enviar">
+      </form>
+  
+  
+       Formulário de cadastro de pontos de coleta-->
+  
+      <!-- <form id="cadastro-pontodecoleta">
+        <fieldset>
+          <legend>Dados do local</legend>
+  
+          <label for="nome">Nome do ponto de coleta:</label>
+          <br>
+          <input id="name" type="text" required>        
+          <br>
+  
+          <label for="endereco">Endereço:</label>
+          <br>
+          <input id="endereco" type="text">
+          <br>
+  
+          <label for="horario">Horário de funcionamento:</label>
+          <br>
+          <input id="horario" type="text">
+          <br>
+  
+          Materiais coletados:
+          <br>
+          <input type="checkbox" value="plastico"><label for="plastico">Plástico</label>
+          <br>
+          <input type="checkbox" value="vidro"><label for="vidro">Vidro</label>
+          <br>
+          <input type="checkbox" value="papel"><label for="papel">Papel</label>
+          <br>
+          <input type="checkbox" value="metal"><label for="metal">Metal</label>
+          <br>
+          <input type="checkbox" value="eletronicos"><label for="eletronicos">Eletrônicos</label>
+        </fieldset>
+        <input type="checkbox">
+        <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label>
         <br>
-        
-        <label for="email">E-mail:</label>
-        <br>
-        <input id="email" type="email" required>
-        <br>
-
-        <label for="telefone">Telefone:</label>
-        <br>
-        <input id="telefone" type="tel" required>
-        <br>
-        
-        <!-- CPF: Será recebido input como texto, usaremos Regex no JavaScript para validar e formatar
-        o dado para padronizar no banco de dados posteriormente-->
-         for="cpf">CPF:</label>
-        <br>
-        <input id="cpf" type="text" required>
-      </fieldset>
-      <input type="checkbox">
-      <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label>
-      <br>
-      <input type="submit" value="Enviar">
-    </form>
-
+        <input type="submit" value="Enviar">
+      </form> --->
+  
+    </main>
     
-    <!-- Formulário de cadastro de coletores-->
-
-    <form id="cadastro-coletor">
-      <fieldset id="dados-pessoais">
-        <legend>Dados pessoais</legend>
-
-        <label for="nome">Nome completo:</label>
-        <br>
-        <input id="name" type="text" required>        
-        <br>
-
-        <label for="email">E-mail:</label>
-        <br>
-        <input id="email" type="email" required>
-        <br>
-        
-        <label for="telefone">Telefone:</label>
-        <br>
-        <input id="telefone" type="tel" required>
-        <br>
-
-        <!-- CPF: Será recebido input como texto, usaremos Regex no JavaScript para validar e formatar
-        o dado para padronizar no banco de dados posteriormente-->
-        <label for="cpf">CPF:</label>
-        <br>
-        <input id="cpf" type="text" required>
-      </fieldset>
-        
-      <fieldset id="coleta">
-        <legend>Coleta</legend>
-        Materiais coletados:
-        <br>
-        <input type="checkbox" value="plastico"><label for="plastico">Plástico</label>
-        <br>
-        <input type="checkbox" value="vidro"><label for="vidro">Vidro</label>
-        <br>
-        <input type="checkbox" value="papel"><label for="papel">Papel</label>
-        <br>
-        <input type="checkbox" value="metal"><label for="metal">Metal</label>
-        <br>
-        <input type="checkbox" value="eletronicos"><label for="eletronicos">Eletrônicos</label>
-        <br>
-        <br>
-        <label for="cep">CEP:</label>
-        <br>
-        <input type="text" id="cep">
-        <br>
-        <label for="raio">Raio atendido em km:</label>
-        <input type="number" id="raio">
-      </fieldset>
-
-      <input type="checkbox">
-      <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label>
-      <br>
-      <input type="submit" value="Enviar">
-    </form>
-
-
-    <!-- Formulário de cadastro de pontos de coleta-->
-
-    <form id="cadastro-pontodecoleta">
-      <fieldset>
-        <legend>Dados do local</legend>
-
-        <label for="nome">Nome do ponto de coleta:</label>
-        <br>
-        <input id="name" type="text" required>        
-        <br>
-
-        <label for="endereco">Endereço:</label>
-        <br>
-        <input id="endereco" type="text">
-        <br>
-
-        <label for="horario">Horário de funcionamento:</label>
-        <br>
-        <input id="horario" type="text">
-        <br>
-
-        Materiais coletados:
-        <br>
-        <input type="checkbox" value="plastico"><label for="plastico">Plástico</label>
-        <br>
-        <input type="checkbox" value="vidro"><label for="vidro">Vidro</label>
-        <br>
-        <input type="checkbox" value="papel"><label for="papel">Papel</label>
-        <br>
-        <input type="checkbox" value="metal"><label for="metal">Metal</label>
-        <br>
-        <input type="checkbox" value="eletronicos"><label for="eletronicos">Eletrônicos</label>
-      </fieldset>
-      <input type="checkbox">
-      <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label>
-      <br>
-      <input type="submit" value="Enviar">
-    </form> 
-
-  </main>
-
   <footer>
     <img alt="Logo" src="imagens/logo.rf_pequeno.png">
     <span>Copyright © 2023 Recicle Fácil. Todos direitos reservados.</span>
