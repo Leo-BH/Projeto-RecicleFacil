@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    
+}
+
+main{
+    background-color: #D9D9D9;
+    display: flex;
+}
+
+
+.container1{
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  
+}
+
+#titulo-texto{
+    padding: 8px 20px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 60px 13rem;
+    margin: 50px;
+
+}
+.corpo-texto{
+padding-top: 30px;
+text-align: justify;
+
+}
+#entre-agora a{
+    color: #38B000;    
+}
+.container2{
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding: 1rem;
+    color: #023E8A;
+    
+}
+#cadastro{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+
+}
+.opcao-cadastro{
+    text-align: center;
+    font-size: 20px;
+}
+.opcao-cadastro input{
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0 .5rem;
+}
+
+.form-usuario{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    padding: 2rem;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box label, .opcao-input label{
+    font-size:15px;
+    font-weight: 600;
+    color: #023E8A;
+}
+
+.input-box label{
+    text-align: justify;
+   
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 10px ;
+    box-shadow: 1px 1px 6px #0f0f0f1c;
+    background-color: #D9D9D9;
+}
+
+.input-box input:hover{
+    background-color: white;
+}
+
+.input-box input:placeholder{
+color: rgb(207, 196, 196);
+}
+
+input[type="submit"]{
+    display: center;
+    justify-content: center;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #023E8A;
+    border: 1px solid #023E8A;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
