@@ -228,10 +228,10 @@
         display: flex;
         justify-content:center;
         margin-top: 100px;
-        border: 1px solid chartreuse;
+        border: 1px solid #38b000;
         border-radius: 20px;
         width: 200px;
-        background-color: chartreuse;
+        background-color: #38b000;
         height: 40px;
         a{
             color: white;
@@ -266,10 +266,10 @@
         display: flex;
         justify-content:center;
         margin-top: 100px;
-        border: 1px solid chartreuse;
+        border: 1px solid #38b000;
         border-radius: 20px;
         width: 200px;
-        background-color: chartreuse;
+        background-color: #38b000;
         height: 40px;
         a{
             color: white;
@@ -304,10 +304,10 @@
         display: flex;
         justify-content:center;
         margin-top: 100px;
-        border: 1px solid chartreuse;
+        border: 1px solid #38b000;
         border-radius: 20px;
         width: 200px;
-        background-color: chartreuse;
+        background-color: #38b000;
         height: 40px;
         a{
             color: white;
