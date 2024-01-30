@@ -45,23 +45,39 @@ nav {
         align-items: center;
         gap: 5px;
     }
-    #log{
-        background-color:  #023e8a;
-        border-radius: 5px;
-        color: white;
-        
-    }
-    #log:hover{
-        background-color: gray;
-    }
-    #cad{
-        background-color: #023e8a;
-        border-radius: 5px;
-        color: white;
-    }
-    #cad:hover{
-        background-color:gray;
-    }
+    #bot{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content:center;
+        gap: 5px;
+        margin-right: 10px;
+
+        #log{
+            background-color: rgba(2, 62, 138, 1);
+            border-radius: 5px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            width: 60px;
+            font-size: 14px;
+        }
+        #log:hover{
+            background-color: gray;
+        }
+        #cad{
+            background-color: rgba(2, 62, 138, 1);
+            border-radius: 5px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            width: 120px;
+            font-size: 14px;
+        }
+        #cad:hover{
+            background-color:gray;
+        }
+    }    
 }
 
  footer {
