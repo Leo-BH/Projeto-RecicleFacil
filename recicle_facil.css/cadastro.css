@@ -1,52 +1,52 @@
+/* reset css c/ seletor universal para padronizar os elementos*/
 *{
     padding: 0;
-    margin: 0;
-   
-    
+    margin: 0; 
 }
 
 main{
     background-color: #D9D9D9;
-    display: flex;
+    display: flex; 
     width: 100vw;
-    height: 100vh;
+    height: 100vh; 
 }
 
 
 .container1{
-    width: 45%;
-    height: 100vh;
+    width: 45%; 
+    height: 100vh; 
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-
-  
+    justify-content: center;
+    text-align: center; 
+    margin-left: 50px; 
+    margin-right: 50px; 
 }
 
 #titulo-texto{
-    padding: 8px 20px;
+    padding-top: 30px; 
 }
 
 .texto {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
     background-color: white;
-    border-radius: 20px;
-    padding: 50px 60px 13rem;
-    margin: 50px;
+    border-radius: 20px; 
+    padding: 60px 60px 5rem;
+}
+.paragrafo{
+    padding-top: 30px;
+    text-align: justify;
 
 }
-.corpo-texto{
-padding-top: 30px;
-text-align: justify;
+#link-tem-conta{
+    padding-top: 10px;
+   
+}
 
-}
-#entre-agora a{
-    color: #38B000;    
-}
 .container2{
     width: 55%;
     height: 100vh;
@@ -58,11 +58,10 @@ text-align: justify;
     color: #023E8A;
     
 }
-#cadastro{
-    padding-bottom: 20px;
+#cadastre-se{
+    padding-bottom: 20px; 
     text-align: center;
     font-size: 45px;
-
 }
 .opcao-cadastro{
     text-align: center;
@@ -74,6 +73,7 @@ text-align: justify;
     padding: 0 0 .5rem;
 }
 
+/* formulario de usuário */
 .form-usuario{
     width: 75%;
     display: flex;
@@ -83,31 +83,32 @@ text-align: justify;
     background-color: #D9D9D9;
     padding: 2rem;
 }
-
+/* Todos os input do formulario */
 .input-group{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem;
 }
-
+/* label e inputs de preencher com dados */
 .input-box{
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.1rem; 
 }
-
+/* Todas as label da opção de usuário e do forumário de dados */
 .input-box label, .opcao-input label{
     font-size:15px;
-    font-weight: 600;
+    font-weight: 600;  
     color: #023E8A;
 }
-
+ /* Todas as label do formulario de dados */
 .input-box label{
     text-align: justify;
    
 }
 
+/* Todos inputs do formulário de dados*/
 .input-box input{
     margin: 0.6rem 0;
     padding: 0.5rem 1.2rem;
@@ -117,18 +118,11 @@ text-align: justify;
     background-color: #D9D9D9;
 }
 
-.input-box input:hover{
-    background-color: white;
-}
-
-.input-box input:placeholder{
-color: rgb(207, 196, 196);
-}
-
+/* Botão de concluir cadastro */
 input[type="submit"]{
     display: center;
     justify-content: center;
-    padding: 5px 10px;
+    padding: 5px 10px; 
     font-size: 14px;
     background-color: #023E8A;
     border: 1px solid #023E8A;
