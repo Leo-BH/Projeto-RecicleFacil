@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    background:
+    linear-gradient(rgba(226, 223, 223, 0.897), rgba(255, 255, 255, 0.5)),
+    url(/imagens/imagem-fundo-login.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#form-login{
+    background-color: #38B000;
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+   
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+  
+    padding: 5px;
+    font-size: 1rem;
+    border-bottom: 2px solid #323232;
+    border-radius: 5px;
+}
+
+a#link-esqueceu-senha{
+    text-align: right;
+    display: block;
+    font-size: 12px; 
+}
+
+button[type="button"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
