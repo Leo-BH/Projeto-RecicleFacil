@@ -223,9 +223,9 @@
         font-size: 12px;
     }
     a{
-        border: 1px solid chartreuse;
+        border: 1px solid #38b000;
         border-radius: 10px;
-        background-color: chartreuse;
+        background-color: #38b000;
         color: white;
         display: flex;
         width: 200px;
@@ -255,9 +255,9 @@
         font-size: 12px;
     }
     a{
-        border: 1px solid chartreuse;
+        border: 1px solid #38b000;
         border-radius: 10px;
-        background-color: chartreuse;
+        background-color: #38b000;
         color: white;
         display: flex;
         width: 200px;
@@ -281,15 +281,15 @@
     margin-right: 100px;
     h2{
         font-size: 20px;
-        color: rgba(2, 62, 138, 1);
+        color: #023e8a;
     }
     h3{
         font-size: 12px;
     }
     a{
-        border: 1px solid chartreuse;
+        border: 1px solid #38b000e;
         border-radius: 10px;
-        background-color: chartreuse;
+        background-color: #38b000;
         color: white;
         display: flex;
         width: 200px;
