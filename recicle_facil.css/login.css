@@ -1,8 +1,12 @@
+
+/* reset css c/ seletor universal para padronizar os elementos*/
 *{
     margin: 0;
     padding: 0;
     
 }
+
+/* Conteúdo principal dentro do body */
 main{
     background:
     linear-gradient(rgba(226, 223, 223, 0.897), rgba(255, 255, 255, 0.5)),
@@ -14,7 +18,7 @@ main{
     align-items: center; 
     justify-content: center;
 }
-
+/* Formulario */
 #form-login{
     background-color: #38B000;
     width: 400px;
@@ -27,6 +31,7 @@ main{
     opacity: 0.8;
 }
 
+/*labels e inputs do formulário */
 label, input{
     display: block;
     width: 100%;
@@ -35,11 +40,13 @@ label, input{
    
 }
 
+/* Todas as labels do forumário */
 label{
     font-weight: bold;
     font-size: .8rem;
 }
 
+/* Todos inputs do forumário */
 input{
   
     padding: 5px;
@@ -48,12 +55,15 @@ input{
     border-radius: 5px;
 }
 
+/*  link quando o usúario esquecer a senha, redefini-la */
 a#link-esqueceu-senha{
     text-align: right;
     display: block;
     font-size: 12px; 
 }
 
+
+/* Botão para entrar na sua conta cadastrada */ 
 button[type="button"]{
     text-align: center;
     text-transform: uppercase;
