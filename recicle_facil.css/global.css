@@ -26,6 +26,10 @@ nav {
         height: 150px;
         left: 150px;
     }
+    #icones{
+        display: flex;
+        margin-left: 4px;
+    }
     
     a#ig {
        img{
@@ -43,7 +47,6 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 5px;
     }
     #bot{
         text-align: center;
@@ -100,6 +103,7 @@ a {
     text-decoration: none;
     color: #023e8a;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
 }
 
 a:hover{
