@@ -11,31 +11,31 @@
     margin-left: 150px;
     h1{
         font-size: 36px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: #023e8a
     }
         }
 
     h3{
         text-align: justify;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Roboto', sans-serif;
         color:#582f0e
        
     }
     h2{
         text-align: center;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: #582f0e;
 }
 .tipos{
     background-color: rgba(247, 247, 247, 1);
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
 
     #mater{
         h1{
             text-align: center;
             font-size: 26px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
             color: rgba(2, 62, 138, 1);
         }
     }    
@@ -200,6 +200,8 @@
 }
 #pilares{
     padding: 40px;
+    font-family: 'Roboto', sans-serif;
+
 }
 .moeda_verde{
     display: flex;
@@ -223,7 +225,6 @@
         font-size: 14px;
     }
     #link_moeda{
-        text-align: center;
         align-items: center;
         display: flex;
         justify-content:center;
@@ -235,6 +236,9 @@
         height: 40px;
         a{
             color: white;
+            padding-right: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
         }    
     }
 }
@@ -261,7 +265,6 @@
         font-size: 14px;
     }
     #link_parce{
-        text-align: center;
         align-items: center;
         display: flex;
         justify-content:center;
@@ -273,6 +276,9 @@
         height: 40px;
         a{
             color: white;
+            padding-right: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
         }
     }
 }
@@ -299,7 +305,6 @@
         font-size: 14px;
     }    
     #link_mudan{
-        text-align: center;
         align-items: center;
         display: flex;
         justify-content:center;
@@ -311,6 +316,9 @@
         height: 40px;
         a{
             color: white;
+            padding-right: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
         }
     }
 }

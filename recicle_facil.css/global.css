@@ -1,6 +1,7 @@
 /* CSS Geral - Cabeçalho e rodapé*/
 
 @charset "UTF-8";
+
 body {
   margin: 0;
   padding: 0;
@@ -21,27 +22,10 @@ nav {
     align-items: center;
     height: 100px;
     left: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     img {
         height: 150px;
         left: 150px;
-    }
-    #icones{
-        display: flex;
-        margin-left: 4px;
-    }
-    
-    a#ig {
-       img{
-        height: 30px;
-        left: 30px;
-       }
-    }
-    a#face {
-        img{
-            height: 30px;
-            left: 30px;
-           }
     }
     div.botao{
         display: flex;
@@ -62,11 +46,12 @@ nav {
             color: white;
             display: flex;
             justify-content: center;
-            width: 60px;
+            width: 50px;
             font-size: 14px;
         }
         #log:hover{
-            background-color: gray;
+            background-color: #fff;
+            color: black;
         }
         #cad{
             background-color: rgba(2, 62, 138, 1);
@@ -74,23 +59,25 @@ nav {
             color: white;
             display: flex;
             justify-content: center;
-            width: 120px;
+            width: 110px;
             font-size: 14px;
         }
         #cad:hover{
-            background-color:gray;
+            background-color:#fff;
+            transform: scale(1.2);
+            color: black;
         }
     }    
 }
 
- footer {
+footer {
     background-color:#38b000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
        
     img {
         height: 100px;
@@ -102,13 +89,46 @@ nav {
 a {
     text-decoration: none;
     color: #023e8a;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 20px;
 }
 
 a:hover{
-    color: gray;
+    color: #fff;
+    transform: scale(1.4);
  }
 span{
     color: #023e8a;
+}
+.redes{
+    margin-right: 60px;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.6rem;
+    gap: 15px;
+}
+#insta{
+    width: 30px;
+    height: 30px;
+    color: #023e8a;
+}
+#insta:hover{
+    color: #fffa;
+    transform: scale(1.4);
+    width: 30px;
+    height: 30px;
+}
+#face{
+    width: 30px;
+    height: 30px;
+    color: #023e8a;
+}
+#face:hover{
+    color: #fff;
+    transform: scale(1.4);
+    width: 30px;
+    height: 30px;
 }
