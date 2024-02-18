@@ -8,6 +8,9 @@
   <title>Sobre nós</title>
   <link rel="stylesheet" href="recicle_facil.css/global.css">
   <link rel="stylesheet" href="recicle_facil.css/sobre.css">
+  <!--link java script-->
+<script src="recicle_facil script js/index.js"> defer </script>
+
 </head>
 
 <body>
@@ -31,15 +34,56 @@
     </div>
   </nav>
 
-  <!-- Imagem principal grande--> 
+  <!-- Imagem principal grande 
   <section id="princ">
     <div>
       <img src="imagens/lixo na praia.jpg" alt="imagem_ilustrativa">
     </div>
-  </section>
-  
-  <!--Apresentação da empresa-->
-  <div id="sobre">
+  </section> -->
+
+          <!-- carrossel de imagens-->
+  <div class="slider">
+    <div class="slides">
+          <!-- radio buttons-->
+      <input type="radio" nome="radio-btn" id= radio1>
+      <input type="radio" nome="radio-btn" id= radio2>
+      <input type="radio" nome="radio-btn" id= radio3>
+      <input type="radio" nome="radio-btn" id= radio4>
+          <!-- fim ..radio buttons-->
+          <!-- slides de imagens-->
+        <div class="slide first">
+          <img src="imagens/plastic-waste-4236374_1280.jpg" alt="imagem1">
+        </div>
+        <div class="slide">
+          <img src="imagens/trash-1334557_1280.jpg" alt="imagem2">
+        </div>
+        <div class="slide">
+          <img src="imagens/lixo na praia.jpg" alt="imagem3">
+        </div>
+        <div class="slide ">
+          <img src="imagens/trash-4897854_640.jpg" alt="imagem4">
+        </div>
+           <!-- fim dos slides de imagens-->
+            <!-- Navigation-auto-->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>    
+            <!-- fim do  Navigation-auto-->
+            <!-- Navigation-manual labels -->
+    </div>
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+          <!-- fim dos labels Navigation manual-->
+  </div>
+             <!--Apresentação da empresa-->
+    <div id="sobre">
     <h1>Sobre a Recicle Fácil</h1>
     <h3>Somos a Recicle Fácil, uma iniciativa que tem como foco principal contribuir para
       o desenvolvimento sustentável das cidades colaborando com a preservação do meio
@@ -47,7 +91,7 @@
       de coleta e catadores de materiais recicláveis para direcionar corretamente seus materiais a
       fim de que estes possam ser processados, não sendo descartados deliberadamente no meio ambiente.
     </h3>
-  </div>
+   </div>
 
   <!--Imagens ilustrativas + Missão,Visão e Valores-->
   <section id="principios">

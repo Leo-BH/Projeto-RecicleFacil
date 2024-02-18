@@ -8,13 +8,19 @@
   <title>Página Inicial</title>
   <link rel="stylesheet" href="recicle_facil.css/global.css">
   <link rel="stylesheet" href="recicle_facil.css/index.css">
+
   <!--link ionicons-->
   <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
   <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
   <!--link google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+ 
+  <!--link java script-->
+<script src="recicle_facil script js/index.js"> defer </script>
+
 </head>
 
 <body>
@@ -38,27 +44,74 @@
     </div>
   </nav>
   
-<!-- Imagem principal grande-->
+<!-- Imagem principal grande
 <section>
   <div id="princ">
-    <img src="imagens/reciclagem no mundo_reduz2.jpg" alt="ilustracao_lixeiras">
+    <img src="imagens/reciclagem no mundo_reduz.jpg" alt="ilustracao_lixeiras">
 
 
   </div>
-</section>
+</section>  -->
+<!-- carrrosel de imagens -->
 
-<!--Texto de abertura-->
+<div class="slider">
+
+   <div class="slides"> 
+      <!-- radio buttons--> 
+     <input type="radio" nome="radio-btn" id="radio1">
+     <input type="radio" nome="radio-btn" id="radio2">
+     <input type="radio" nome="radio-btn" id="radio3">
+     <input type="radio" nome="radio-btn" id="radio4">
+     <!-- fim do radio buttons-->
+     <!-- slides imagens-->
+     <div class="slide first">
+      <img src="imagens/nature-3289812_640.jpg" alt="imagem1" height="400px">
+     </div>
+        <div class="slide">
+          <img src="imagens/plastic-waste-3962409_640.jpg" alt="imagem2"height="400px">
+        </div>
+        <div class="slide">
+          <img src="imagens/garbage-on-the-beach-4884447_640.jpg" alt="imagem3" height="400px" >
+        </div>
+        <div class="slide">
+          <img src="imagens/garbage-4277613_640.jpg" alt="imagem4" height="400px">
+        </div>
+        <!-- fim dos slides de imagens-->
+        <!-- navigation auto-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+         </div>
+         <!--fim do navigation auto-->
+   </div> <!-- fechar a div de slides-->
+
+    <!-- criar os labels referentes aos buttons-->
+  <div class="manual-navigation">
+    <label for="radio1" class=manual-btn></label>
+    <label for="radio2" class=manual-btn></label>
+    <label for="radio3" class=manual-btn></label>
+    <label for="radio4" class=manual-btn></label>
+  </div>
+
+</div>
+
+   <!--Texto de abertura-->
 
 <div class="sobre">
     <h1>Somos a Recicle Fácil</h1>
-    <h3>Seja bem-vindo ao Recicle Fácil! Somos uma plataforma comprometida com a transformação ambiental, facilitando
-        o processo de reciclagem ao conectar indivíduos aos pontos de coleta e catadores de materiais recicláveis.
-        Nosso objetivo é tornar o ato de reciclar mais simples, gratificante e impactante para o meio ambiente.
-        Nosso sistema de moeda verde recompensa cada ato de reciclagem, incentivando e reconhecendo sua participação
-        ativa na construção de um futuro melhor para todos. Junte-se a nós no Recicle Fácil e seja parte da mudança que
-        o mundo precisa.
+
+    <h3>
+      Seja bem-vindo ao Recicle Fácil! Somos uma plataforma         comprometida com a transformação ambiental, facilitando
+      o processo de reciclagem ao conectar indivíduos aos pontos de coleta e catadores de materiais recicláveis.
+      Nosso objetivo é tornar o ato de reciclar mais simples, gratificante e impactante para o meio ambiente.
+      Nosso sistema de moeda verde recompensa cada ato de reciclagem, incentivando e reconhecendo sua participação
+      ativa na construção de um futuro melhor para todos. Junte-se a nós no Recicle Fácil e seja parte da mudança que
+      o mundo precisa.
     </h3>
-    <h2>Comece agora e veja como pequenos gestos podem gerar grandes recompensas para o planeta e para você!</h2>
+    <h2>Comece agora e veja como pequenos gestos podem gerar grandes recompensas para o planeta e para você!
+    </h2>
 </div>
 
 <!--Div com os tipos de materiais reciclaveis, informativo + imagem  -->
@@ -71,22 +124,24 @@
       <div id="papel">
           <div class="txt_papel">
             <h2>Papel e Papelão</h2>
-            <h3>Jornais, revistas, papel de escritório, caixas de papelão. Podem ser reciclados e transformados em novos
-                produtos de papel.
+            <h3>
+              Jornais, revistas, papel de escritório, caixas de papelão. Podem ser reciclados e transformados em novos
+              produtos de papel.
             </h3>
           </div>  
       </div>
       <div id="vidro">
           <div class="txt_vidro">
             <h2>Vidros</h2>
-            <h3> Contemplam materiais valiosos e tóxicos que podem ser reciclados de maneira especializada.</h3>
+            <h3> 
+              Contemplam materiais valiosos e tóxicos que podem ser reciclados de maneira especializada.</h3>
           </div>  
       </div>
       <div id="plastico">
          <div class="txt_plast">
             <h2>Plástico</h2>
-            <h3>Garrafas PET, embalagens de alimentos, sacolas plásticas. São classificados por tipos de resinas e podem
-                ser reaproveitados.
+            <h3>
+              Garrafas PET, embalagens de alimentos, sacolas plásticas. São classificados por tipos de resinas e podem ser reaproveitados.
             </h3>
          </div>   
       </div>
@@ -96,27 +151,29 @@
       <div id="aluminio">
          <div class="txt_metal">
             <h2>Metal e Alumínio</h2>
-            <h3>Garrafas PET, embalagens de alimentos, sacolas plásticas. São classificados por tipos de resinas e podem
-                ser reaproveitados.
+            <h3>
+              Garrafas PET, embalagens de alimentos, sacolas plásticas. São classificados por tipos de resinas e podem ser reaproveitados.
             </h3>
          </div>
       </div>
       <div id="organico">
           <div class="organ">
             <h2>Orgânico</h2>
-            <h3>Resíduos de comida, folhas, restos de jardim. Podem ser compostados para produzir adubo orgânico.</h3>
+            <h3>
+              Resíduos de comida, folhas, restos de jardim. Podem ser compostados para produzir adubo orgânico.
+            </h3>
           </div>  
       </div>    
       <div id="eletronico">
           <div class="eletro">
             <h2>Eletrônicos</h2>
-            <h3>O lixo eletrônico abrange uma variedade de dispositivos descartados, como smartphones, laptops, baterias e equipamentos eletrônicos domésticos.
+            <h3>
+              O lixo eletrônico abrange uma variedade de dispositivos descartados, como smartphones, laptops, baterias e equipamentos eletrônicos domésticos.
            </h3>
           </div>  
       </div>
     </div>         
 </section>
-
 
 <!--Section com  os pilares do projeto botão para acessar as paginas -->
 <section id="pilares"> 
@@ -124,9 +181,10 @@
       <img src="imagens/recompensa verde_reduz.jpg"    alt="imagem_ilustraticva">
       <div id="moeda">
           <h2>Moeda Verde</h2>
-          <h3>Nosso sistema de moeda verde recompensa cada ato de reciclagem, incentivando e reconhecendo sua participação
-             ativa na construção de um futuro melhor para todos. Junte-se a nós no Recicle Fácil e seja parte da mudança
-              que o mundo precisa.
+          <h3>
+            Nosso sistema de moeda verde recompensa cada ato de reciclagem, incentivando e reconhecendo sua participação
+            ativa na construção de um futuro melhor para todos. Junte-se a nós no Recicle Fácil e seja parte da mudança
+            que o mundo precisa.
           </h3>
           <div id="link_moeda">
               <a href="sobre.html">Saiba mais</a>
@@ -138,9 +196,10 @@
       <img src="imagens/seja nosso parceiro_reduz.jpg"    alt="imagem_ilustraticva">
       <div id="parce">
           <h2>Seja nosso Parceiro</h2>
-          <h3>No Recicle Fácil, estamos comprometidos com a missão de promover uma mudança positiva para o meio ambiente.
-              Sabemos que você também compartilha desse compromisso e por isso queremos convidá-lo a fazer parte da nossa
-              rede de parceiros.
+          <h3>
+            No Recicle Fácil, estamos comprometidos com a missão de promover uma mudança positiva para o meio ambiente.
+            Sabemos que você também compartilha desse compromisso e por isso queremos convidá-lo a fazer parte da nossa
+            rede de parceiros.
           </h3>
           <div id="link_parce">
               <a href="cadastro.html">Cadastre-se</a>
@@ -152,10 +211,11 @@
       <img src="imagens/Garota entregando lixo ponto coleta.jpg"    alt="imagem_ilustraticva">
       <div id="mudan">
           <h2>Faça parte da Mudança </h2>
-          <h3>No Recicle Fácil, acreditamos que pequenas ações podem gerar grandes impactos. Cada material reciclado
-              é uma oportunidade de preservar o planeta, e é por isso que facilitamos esse processo. Ao cadastrar-se
-              em nossa plataforma, você terá acesso a uma rede de pontos de coleta e catadores verificados, podendo
-              contribuir para um ambiente mais limpo e saudável.
+          <h3>
+            No Recicle Fácil, acreditamos que pequenas ações podem gerar grandes impactos. Cada material reciclado
+            é uma oportunidade de preservar o planeta, e é por isso que facilitamos esse processo. Ao cadastrar-se
+            em nossa plataforma, você terá acesso a uma rede de pontos de coleta e catadores verificados, podendo
+            contribuir para um ambiente mais limpo e saudável.
           </h3>
           <div id="link_mudan">
               <a href="cadastro.html">Cadastre-se</a>
