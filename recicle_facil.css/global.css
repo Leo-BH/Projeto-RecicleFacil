@@ -21,8 +21,7 @@ nav {
     padding: 10px;
     align-items: center;
     height: 100px;
-    left: auto;
-    /*font-family: 'Roboto', sans-serif;*/
+    width: 100%;
     img {
         height: 150px;
         left: 150px;
@@ -69,16 +68,17 @@ nav {
         }
     }    
 }
+@media
 
 footer {
-    background-color:#38b000;
+    background-color: #38b000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 14px;
     font-family: 'Roboto', sans-serif;
-       
+
     img {
         height: 100px;
         left: 100px;

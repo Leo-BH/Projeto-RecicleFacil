@@ -91,10 +91,10 @@
 
 .sobre{
     max-width: 1000px;
-    margin-left: 150px;
+    margin-left: 13%;
     h1{
         font-size: 36px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: #023e8a
     }
 }
