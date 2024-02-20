@@ -1,19 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+
 /* CSS Geral - Cabeçalho e rodapé*/
 
 @charset "UTF-8";
 
-body {
+*{
   margin: 0;
   padding: 0;
- }
-main {
-    background-color:white;
-    align-items: center;
-    text-align: center;
-    width: 1800px;
-    padding: 20px;
-    margin: auto;
+  font-family: 'Inter', sans-serif;
 }
+
 nav {
     background-color: #38b000;
     display: flex;
@@ -21,7 +17,8 @@ nav {
     padding: 10px;
     align-items: center;
     height: 100px;
-    width: 100%;
+    left: auto;
+
     img {
         height: 150px;
         left: 150px;
@@ -68,17 +65,15 @@ nav {
         }
     }    
 }
-@media
 
 footer {
-    background-color: #38b000;
+    background-color:#38b000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 14px;
-    font-family: 'Roboto', sans-serif;
-
+       
     img {
         height: 100px;
         left: 100px;
@@ -89,7 +84,6 @@ footer {
 a {
     text-decoration: none;
     color: #023e8a;
-    font-family: 'Roboto', sans-serif;
     margin-left: 20px;
 }
 

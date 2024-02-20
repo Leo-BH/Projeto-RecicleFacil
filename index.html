@@ -19,30 +19,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
  
   <!--link java script-->
-<script src="recicle_facil script js/index.js"> defer </script>
+<script src="script_js/index.js"> defer </script>
 
 </head>
 
 <body>
-  <nav>
-    <img src="imagens/logo.rf_pequeno.png" alt="Logo">
-    <div class="links">
-      <ul>
-        <a href="./index.html"><strong>INÍCIO</strong></a>
-        <a href="./dados.html"><strong>MEUS DADOS</strong></a>
-        <a href="./pontosdecoleta.html"><strong>PONTOS DE COLETA</strong></a>
-        <a href="./coletadomiciliar.html"><strong>COLETA DOMICILIAR</strong></a>
-      </ul>
-    </div>
+  <header>
+      <nav>
+        <img src="imagens/logo.rf_pequeno.png" alt="Logo">
+        <div class="links">
+          <ul>
+            <a href="./index.html"><strong>INÍCIO</strong></a>
+            <a href="./dados.html"><strong>MEUS DADOS</strong></a>
+            <a href="./pontosdecoleta.html"><strong>PONTOS DE COLETA</strong></a>
+            <a href="./coletadomiciliar.html"><strong>COLETA DOMICILIAR</strong></a>
+          </ul>
+        </div>
 
-    <!-- botões de login e cadastre-se, com links para as respectivas páginas-->
-    <div class="botao">
-      <div id="bot">
-          <a href="cadastro.html" id="cad">CADASTRE-SE</a>
-          <a href="login.html" id="log">LOGIN</a>
-      </div>
-    </div>
-  </nav>
+        <!-- botões de login e cadastre-se, com links para as respectivas páginas-->
+        <div class="botao">
+          <div id="bot">
+              <a href="cadastro.html" id="cad">CADASTRE-SE</a>
+              <a href="login.html" id="log">LOGIN</a>
+          </div>
+        </div>
+      </nav>
+  </header>
   
 <!-- Imagem principal grande
 <section>
@@ -56,17 +58,18 @@
 
 <div class="slider">
 
-   <div class="slides"> 
-      <!-- radio buttons--> 
-      <input type="radio" nome="radio-btn" id="radio1">
-      <input type="radio" nome="radio-btn" id="radio2">
-      <input type="radio" nome="radio-btn" id="radio3">
-      <input type="radio" nome="radio-btn" id="radio4">
-      <!-- fim do radio buttons-->
-      <!-- slides imagens-->
-      <div class="slide first">
-        <img src="imagens/nature-3289812_640.jpg" alt="imagem1" height="400px">
-      </div>
+  <div class="slides"> 
+     <!-- radio buttons--> 
+     <input type="radio" nome="radio-btn" id="radio1">
+     <input type="radio" nome="radio-btn" id="radio2">
+     <input type="radio" nome="radio-btn" id="radio3">
+     <input type="radio" nome="radio-btn" id="radio4">
+     <!-- fim do radio buttons-->
+
+     <!-- slides imagens-->
+     <div class="slide first">
+      <img src="imagens/nature-3289812_640.jpg" alt="imagem1" height="400px">
+     </div>
         <div class="slide">
           <img src="imagens/plastic-waste-3962409_640.jpg" alt="imagem2"height="400px">
         </div>
@@ -77,17 +80,19 @@
           <img src="imagens/garbage-4277613_640.jpg" alt="imagem4" height="400px">
         </div>
         <!-- fim dos slides de imagens-->
+
         <!-- navigation auto-->
-          <div class="navigation-auto">
+        <div class="navigation-auto">
             <div class="auto-btn1"></div>
             <div class="auto-btn2"></div>
             <div class="auto-btn3"></div>
             <div class="auto-btn4"></div>
-         </div>
+        </div>
          <!--fim do navigation auto-->
-   </div> <!-- fechar a div de slides-->
 
-    <!-- criar os labels referentes aos buttons-->
+  </div> <!-- fechar a div de slides-->
+
+  <!-- criar os labels referentes aos buttons-->
   <div class="manual-navigation">
     <label for="radio1" class=manual-btn></label>
     <label for="radio2" class=manual-btn></label>
@@ -224,25 +229,22 @@
     </div>
 </section>
 
-<footer>
-    <img alt="Logo" src="imagens/logo.rf_pequeno.png">
-    <span>Copyright © 2023 Recicle Fácil. Todos direitos reservados.</span>
-    <div>
-      <a href="contatos.html"><strong>CONTATE-NOS</strong></a>
-      <a href="sobre.html"><strong>SOBRE NÓS</strong></a>
-    </div>
-    <div class="redes">
-        <div class="icon_insta">
-          <ion-icon id="insta" name="logo-instagram"></ion-icon>
-        </div>
-        
-        <div class="icon_face">
-          <ion-icon id="face" name="logo-facebook"></ion-icon>
-        </div> 
-    </div>
+  <footer>
+      <img alt="Logo" src="imagens/logo.rf_pequeno.png">
+      <span>Copyright © 2023 Recicle Fácil. Todos direitos reservados.</span>
+      <div>
+        <a href="contatos.html"><strong>CONTATE-NOS</strong></a>
+        <a href="sobre.html"><strong>SOBRE NÓS</strong></a>
+      </div>
+      <div class="redes">
+          <div class="icon_insta">
+            <ion-icon id="insta" name="logo-instagram"></ion-icon>
+          </div>
+            
+          <div class="icon_face">
+            <ion-icon id="face" name="logo-facebook"></ion-icon>
+          </div> 
+      </div>
   </footer>
-
-
 </body>
-
 </html>
