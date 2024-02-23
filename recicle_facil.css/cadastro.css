@@ -130,3 +130,21 @@ input[type="submit"]{
     cursor: pointer;
     color: white;
 }
+
+.popup {
+    display: none;
+    color: red;
+}
+
+.input-box {
+    margin-bottom: 10px;
+}
+    
+#nome.invalid {
+    border: 1px solid red;
+}
+
+
+.popup.active {
+    display: block;
+}

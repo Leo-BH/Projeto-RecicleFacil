@@ -8,6 +8,7 @@
   <title>Cadastro</title>
   <link rel="stylesheet" href="recicle_facil.css/global.css">
   <link rel="stylesheet" href="recicle_facil.css/cadastro.css">
+  <script src="script_js/cadastro.js" defer ></script>
 
   <!--link ionicons-->
   <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
@@ -76,38 +77,45 @@
   
           <div class ="input-box">
               <label for="nome">Nome completo:</label>
-              <input id="nome" type="text" placeholder="Digite seu nome completo" required>
+              <input id="nome" type="text" placeholder="Digite seu nome completo" >
+              <span class="popup">*Campo obrigatório</span>
           </div>
                 <!-- CPF: Será recebido input como texto, usaremos Regex no JavaScript para validar e formatar
                 o dado para padronizar no banco de dados posteriormente-->
           <div class="input-box">
               <label for="cpf">CPF:</label>
-              <input id="cpf" type="text" placeholder="000.000.000-00" required>
+              <input id="cpf" type="text" placeholder="000.000.000-00" >
+              <span class="popup">*Campo obrigatório</span>
           </div>
   
           <div class="input-box">
               <label for="telefone">Telefone:</label>
-              <input id="telefone" type="tel" placeholder="(xx) xxxxx-xxxx" required>
+              <input id="telefone" type="tel" placeholder="(xx) xxxxx-xxxx" >
+              <span class="popup">*Campo obrigatório</span>
           </div>
   
           <div class="input-box">
               <label for="email">E-mail:</label>
-              <input id="email" type="email" placeholder="Digite seu e-mail"required>
+              <input id="email" type="email" placeholder="Digite seu e-mail">
+              <span class="popup">*Campo obrigatório</span>
           </div>
                 
           <div class="input-box">
               <label for="senha">Senha:</label> 
-              <input id="senha" type="password" placeholder="********" required>
+              <input id="senha" type="password" placeholder="********" >
+              <span class="popup">*Campo obrigatório</span>
           </div>
                 
           <div class="input-box">
               <label for="senha">Confimação de senha:</label>
-              <input id="senha" type="password" placeholder="********" required>
+              <input id="senha" type="password" placeholder="********" >
+              <span class="popup">*Campo obrigatório</span>
           </div>
   
           <div class="termo">
               <input type="checkbox">
               <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label> 
+              <span class="popup">*Campo obrigatório</span>
           </div>
         </div>    
           <div id="input-button">
