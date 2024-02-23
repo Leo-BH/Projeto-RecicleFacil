@@ -316,7 +316,7 @@
     }
 }
 
-@media (max-width 1180px){
+@media (max-width: 1180px){
     #papel{
         h2{
             font-size: 30px;
@@ -575,7 +575,7 @@
     }
 }
 
-@media (max-width 1180px){
+@media (max-width: 1180px){
     #moeda h2{
         font-size: 30px;
     }
