@@ -81,8 +81,28 @@
     background-color: #023e8a;
 }
 
-/* Tela "Index" */
+@media (max-width: 820px){
+    .slider{
+        width: 500px;
+        height: 250px;
+    }
+    .slides{
+        width: 250%;
+        height: 250px;
+    }
+    .slide img{
+        width: 500px;
+    }
+    .manual-navigation{
+        width: 500px;
+    }
+    .navigation-auto{
+        width: 500px;
+        margin-top: 210px;
+    }
+}
 
+/*Primeira seção*/
 #princ{
     text-align: center;
    
@@ -109,6 +129,21 @@
         color: #582f0e;
 }
 
+@media (max-width: 1180px){
+    .sobre{
+        margin-left: 5%;
+        margin-right: 5%;
+
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 24px;
+        }
+    }
+}
+
+/*segunda seção*/
 .tipos{
     background-color: rgba(247, 247, 247, 167);
     padding: 20px;
@@ -248,7 +283,7 @@
                 font-size: 12px;
             }
         }
-        .organ{
+        .txt_organ{
             background-color: white;
             padding: 15px;
             border-radius: 15px;
@@ -263,7 +298,7 @@
                 font-size: 12px;
             }
         }
-        .eletro{
+        .txt_eletro{
             background-color: white;
             padding: 15px;
             border-radius: 15px;
@@ -280,15 +315,140 @@
         }
     }
 }
+
+@media (max-width: 1180px){
+    #papel{
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 1140px){
+    .container1{
+        margin-left: 1%;
+        margin-right: 1%;
+
+        #papel{
+            width: 280px;   /*de 350 p/ 280px*/
+            height: 150px;   /*de 280 p/ 100px*/
+            margin-left: 3px;
+
+            .txt_papel{
+                width: 170px;   /*de 280 p/ 170px*/
+                height: 90px;   /*de 100 p/ 65px*/
+            }
+        }
+        #vidro{
+            width: 280px;   /*de 350 p/ 280px*/
+            height: 150px;   /*de 280 p/ 100px*/
+            margin-left: 3px;
+
+            .txt_vidro{
+                width: 170px;   /*de 280 p/ 170px*/
+                height: 90px;   /*de 100 p/ 65px*/
+            }
+        }
+        #plastico{
+            width: 280px;   /*de 350 p/ 280px*/
+            height: 150px;   /*de 280 p/ 100px*/
+            margin-left: 3px;
+
+            .txt_plast{
+                width: 170px;   /*de 280 p/ 170px*/
+                height: 90px;   /*de 100 p/ 65px*/
+            }
+        }
+    }
+    .container2{
+        margin-left: 1%;
+        margin-right: 1%;
+
+        #aluminio{
+            width: 280px;   /*de 350 p/ 280px*/
+            height: 150px;   /*de 280 p/ 100px*/
+            margin-left: 3px;
+
+            .txt_metal{
+                width: 170px;   /*de 280 p/ 170px*/
+                height: 90px;   /*de 100 p/ 65px*/
+            }
+        }
+        #organico{
+            width: 280px;   /*de 350 p/ 280px*/
+            height: 150px;   /*de 280 p/ 100px*/
+            margin-left: 3px;
+
+            .txt_organ{
+                width: 170px;   /*de 280 p/ 170px*/
+                height: 90px;   /*de 100 p/ 65px*/
+            }
+        }
+        #eletronico{
+            width: 280px;   /*de 350 p/ 280px*/
+            height: 150px;   /*de 280 p/ 100px*/
+            margin-left: 3px;
+
+            .txt_eletro{
+                width: 170px;   /*de 280 p/ 170px*/
+                height: 90px;   /*de 100 p/ 65px*/
+            }
+        }
+    }
+}
+
+/*@media(max-width: 970px){
+    .container1{
+        flex-direction: column;
+    }
+    #papel{
+        width: 350px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    #vidro{
+        width: 350px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    #plastico{
+        width: 350px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    #aluminio{
+        width: 350px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    #organico{
+        width: 350px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    #eletronico{
+        width: 350px;
+        height: 280px;
+        margin-top: 20px;
+    }    
+}*/
+
+/*Terceira seção*/
 #pilares{
     padding: 40px;
     font-family: 'Roboto', sans-serif;
+    
 
 }
 .moeda_verde{
     display: flex;
     justify-content: space-between;
-    margin: auto;
     img{
         width: 500px;
         height: 350px;
@@ -327,7 +487,6 @@
 .parceiro{
     display: flex;
     justify-content: space-between;
-    margin: auto;
     padding-top: 100px;
     img{
         width: 500px;
@@ -367,7 +526,6 @@
 .mudanca{
     display: flex;
     justify-content: space-between;
-    margin: auto;
     padding-top: 100px;
     img{
         width: 500px;
@@ -402,5 +560,42 @@
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
         }
+    }
+}
+
+@media (max-width: 1300px){
+    #moeda{
+        margin-left: 15px;
+    }
+    #parce{
+        margin-left: 15px;
+    }
+    #mudan{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 1180px){
+    #moeda h2{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 900px){
+    /*#pilares{
+        margin-left: 3%;
+        margin-right: 3%;
+    }*/
+    .moeda_verde img{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .parceiro img{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .mudanca img{
+        margin-left: 3%;
+        margin-right: 3%;
     }
 }

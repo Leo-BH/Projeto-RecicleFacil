@@ -10,18 +10,22 @@
   font-family: 'Inter', sans-serif;
 }
 
+
 nav {
     background-color: #38b000;
     display: flex;
     justify-content:space-between;
     padding: 10px;
     align-items: center;
-    height: 100px;
+    height: 14vh;
     left: auto;
+    
 
     img {
         height: 150px;
         left: 150px;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
     div.botao{
         display: flex;
@@ -63,7 +67,33 @@ nav {
             transform: scale(1.2);
             color: black;
         }
+    }
+    
+    /*menu hamburger*/
+    .menu{
+        display: none;
+        cursor: pointer;
+    }
+    .menu div{
+        width: 32px;
+        height: 3px;
+        background: #fff;
+        margin: 8px;
     }    
+}
+
+@media (max-width: 970px){
+    nav{
+        height: 10vh;
+
+        .links{
+            display: none;
+        }
+        .menu{
+            display: block;
+            margin-right: 10%;
+        }
+    }
 }
 
 footer {
