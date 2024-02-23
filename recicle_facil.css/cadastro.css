@@ -40,14 +40,11 @@ main{
 .paragrafo{
     padding-top: 30px;
     text-align: justify;
-
 }
 #link-tem-conta{
     padding-top: 10px;
-   
 }
-
-.container2{
+ .container2{
     width: 55%;
     height: 100vh;
     display: flex;

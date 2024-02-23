@@ -1,57 +1,97 @@
 @charset "UTF-8";
 
-main {
-    background-color: white;
-    align-items: center;
-    text-align: center;
-    width: 1300px;
-    margin: auto;
-    justify-content: center;
-}
 #inicio {
     align-items: center;
     text-align: center;
-
+    margin-top: 40px;
     p{
-      height: 100px; 
-      width: 900px;
-      color: #582f0e;
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      height: 50px; 
+      width:1000px;
+      color: #000;
+      font-family:"Poppins", sans-serif;
+      font-size: 1.5em;
       text-align: justify;
-      padding: 50px;
+      padding: 30px;
       align-items: center;
       justify-content: center;
       margin: auto;
-
+      text-align: center;
+     }
+    h1{
+      font-family: "Poppins", sans-serif;
+      color:#023e8a;
+      font-size: 2em;
     }
+ }
  
-}
-
 .buscaPonto{
-  text-align: justify;
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
-  border-width: 3px;
+  display: block;
+  width: 1000px;  
+  color: #000;
+  font-family:'Poppins', sans-serif;
+  margin-left: 250px;
+  border: solid 1px #000;
   border-radius: 20px;
-  width: 700px;
-  color: #582f0e;
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   margin: auto;
-
-}
-.formBusca {
-  background-color:rgb(191, 208, 241);
-  height: 300px; 
-  width: 500px;
-  margin: auto;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #d9d9d9;
-  border-radius: 10%;
-  
-
+  box-shadow: 100px, 100px, 100px #000;
+  margin-top: 50px;
+  margin-bottom: 50px;
 } 
+  h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color:#023e8a;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  li{
+     margin-left: 150px;
+   }
+.formBusca {
+  background-image: linear-gradient(to bottom, #1786f9, #38b000);
+  height: 300px; 
+  width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px ;
+    h1 {
+  margin-left: 50px;
+  padding-top: 25px; 
+  text-align: center;
+  } 
+   label {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  margin-left: 50px;
+  margin-top: 50px;
+  line-height: 35px;
+  height: 50px;
+  width: 125px;
+  align-items: center;
+ }
+ input{
+  margin-left: 15px;
+  margin-top: 50px;
+  height: 20px;
+  width: 125px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+ }
+ option{
+  padding: 25px;
+  height: 20px;
+  width: 125px;
+  align-items: center;
+ }
+ select {
+  padding: 5px;
+  align-items: center;
+  margin-left: 5px;
+ }
+}
+    
 p{
   height: 100px; 
   width: 900px;
@@ -73,8 +113,4 @@ p{
   height: 300px; 
   width: 500px;
  }
-h1{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color:#023e8a;
-  font-size: 1.5em;
-}
+
