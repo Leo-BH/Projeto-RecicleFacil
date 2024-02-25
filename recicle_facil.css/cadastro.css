@@ -131,6 +131,7 @@ input[type="submit"]{
 .popup {
     display: none;
     color: red;
+    
 }
 
 .input-box {
@@ -144,4 +145,11 @@ input[type="submit"]{
 
 .popup.active {
     display: block;
+}
+.input-box input:focus {
+    outline: none;
+}
+
+.input-error {
+    border: 10px solid red;
 }
