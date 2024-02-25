@@ -39,9 +39,13 @@
   <!-- Imagem principal grande--> 
     <section id="inicio">
       <div>
-        <h1>Solicite uma Coleta Domiciliar</h1>
+        <h1>
+          Solicite uma Coleta Domiciliar
+        </h1>
       
-        <p>Através do seu comprometimento com a solicitação de um coletor domiciliar, você está liderando uma mudança positiva, mostrando que pequenas ações individuais podem gerar um grande impacto coletivo.</p>
+        <h2>
+          Através do seu comprometimento com a solicitação de um coletor domiciliar, você está liderando uma mudança positiva, mostrando que pequenas ações individuais podem gerar um grande impacto coletivo.
+        </h2>
         <img alt="Coletores" src="imagens/coletor de lixo de moto_reduz.jpg" width="900" height="auto">
 
     </section >
@@ -70,55 +74,58 @@
 
     <!--Formulario para a busca dos coletores --> 
     <section id="formColetor">   
-        <div>
-            <form action="coletor"> 
-                <h1>Solicite Aqui</h1>
-                <section class="formBusca">
-                    <h2><strong>Faça sua busca por um coletor parceiro.</strong></h2>
-                    <section action="Buscar Coletor">
-                    <label for="state">Estado:</label><br>
-                    <input type="text" id="state"      name="state"><br>
-                    <label for="city">Cidade:</label><br>
-                    <input type="text" id="city"  name="city"><br>
+      <div>
+        <form action="coletor"> 
+         <h1>Solicite Aqui</h1>
 
-                    <label for="cars">Tipo de Material</label>
-                    <select name="type of material" id="material" form="Tipo de Material">
+    <section class="formBusca">
+      <h2>Faça sua busca por um coletor parceiro.</h2>
 
-                    <option value="paper">Papel/Papelão</option>
+     <section action="Buscar Coletor">
 
-                    <option value="plastic">Plástico</option>
+       <label for="state">Estado:</label><br>
+       <input type="text" id="state"      name="state"><br>
 
-                    <option value="glass">Vidro</option>
-                    <option value="metal">Metal</option>
-                    <option value="organic">Orgânico</option>
-                    <option value="eletronic">Eletrônico</option>
-          
-                
-                    <input type="submit" value="Solicitar coleta">
-                </section>
-            </form>
-        </div>
+       <label for="city">Cidade:</label><br>
+       <input type="text" id="city"  name="city"><br>
+
+      <label for="cars">Tipo de Material</label>
+       <select name="type of material" id="material" form="Tipo de Material">
+       <option value="paper">Papel/Papelão</option>
+       <option value="plastic">Plástico</option>
+       <option value="glass">Vidro</option>
+       <option value="metal">Metal</option>
+       <option value="organic">Orgânico</option>
+      <option value="eletronic">Eletrônico</option>
+      
+      <input type="submit" value="Solicitar coleta">
+              
+    </section>
+        </form>
+
+      </div>
     </section>
     
 
 <!--Resultado da busca de coletores -->
 <!--Div com os cadastros dos coletores parceiros  informativo + imagem-->
+
     <section id="cadastroColetor"> 
-        <div class="container1">
+       <div class="container1">
             <div class="maria">
-                <div id="imagem_maria">
+              <div id="imagem_maria">
                 <img src="imagens/ana paula padrao_reduz.jpg"  height="250px" width="250px">
-                </div>
-                <div id="txt_maria">
+              </div>
+              <div id="txt_maria">
                     <h2>Maria Aparecida</h2>
                     <h3> Perfil: 35 anos, trabalha na reciclagem de papel.
                     Experiência: Atua há 7 anos na coleta e separação de papel.
                     Motivação: Procura por papelão, revistas e jornais para reciclar.
                     </h3>
-                </div>
-                <div id="botao_maria">
+              </div>
+              <div id="botao_maria">
                   <a href="link_maria"><strong>Veja mais informações</strong></a>
-                </div>
+              </div>
             </div>  
     
             <div class="joao">
@@ -152,10 +159,10 @@
                     <a href="link_joao"><strong>Veja mais informações</strong></a>
                 </div>
             </div>  
-        </div>
+       </div>
       
 
-        <div class="container2">
+       <div class="container2">
           <div class="jose">
                 <div id="imagem_jose"> 
                  <img src="imagens/jose augusto.jpg" height="250px" width="250px">
@@ -203,7 +210,7 @@
             </div> 
           </div>  
         </div>
-      </div>      
+       </div>      
     </section>
 
   </main>
