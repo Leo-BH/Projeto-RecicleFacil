@@ -6,3 +6,80 @@ main {
     padding: 30px;
     margin: auto;
 }
+h2 {
+    font-family:"Poppins", sans-serif;
+    font-size: 1em;
+    color: #023e8a;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+
+}
+h3{
+    font-family:"Poppins", sans-serif;
+    font-size: 1em;
+    color: #023e8a;
+    height: 200px;
+    width: 200px;
+}
+.pessoais{
+   background-color: #d9d9d9;
+   display: flex;
+   max-width: 700px;
+   justify-content: start;
+   align-items: start;
+   
+   border-radius: 30px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+    img{
+        align-items: start;
+        border-radius: 30px;
+    }
+
+    h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 20px; /* Adiciona um espaço entre o texto e os elementos */
+
+    }   
+    p{
+        font-family:"Poppins", sans-serif;
+        flex-direction: column;
+        text-align: start;
+    }
+}
+.recompensas{
+     background-image: linear-gradient(to bottom, #1786f9, #38b000);
+     height: 500px;
+     width: 500px;
+     border-radius: 20px;
+}
+
+.trocas {
+    max-width: 800px;
+    margin: 50px auto;
+
+    h3{
+        text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Adiciona um espaço entre o texto e os elementos */
+}
+    }
+    .troca {
+       background-color: #1786f9;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       border-radius: 20px;
+       p{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        }
+       img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+       }
+
+     
+    }
