@@ -116,7 +116,8 @@
     margin: auto;
     border: solid, 3px #1786f9;
     justify-content: center;
-    margin-left: 150px;        
+    margin-left: 10%;
+    margin-right: 10%;        
     h1{
         font-size: 3em;
         font-family: "Poppins", sans-serif;
@@ -139,13 +140,13 @@
         color: #023e8a;
         margin-top: 10px; 
         margin-bottom: 10px; 
-        font-size: 2em;     
+        font-size: 2em;    
    }
  .chamado{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #d9d9d9; font-style: italic;
-    width: 1200px;
+    width: 100%;
     background-image: linear-gradient(to bottom, #1786f9, #38b000);
     border-radius: 10px;
     margin: 10px, auto;
@@ -155,13 +156,6 @@
     .sobre{
         margin-left: 5%;
         margin-right: 5%;
-
-        h2{
-            font-size: 30px;
-        }
-        h3{
-            font-size: 24px;
-        }
     }
 }
 
@@ -218,15 +212,15 @@
             padding: 15px;
             border-radius: 15px;
             width: 280px;
-            height: 100px;
+            height: 110px;
             padding-top: 10px;
             h2{
-                font-size: 16px;
+                font-size: 1.2em;
                 color: #023e8a;
                 padding-bottom: 5px;
             }
             h3{
-                font-size: 12px;
+                font-size: 0.8em;
             }
         }
         .txt_vidro{
@@ -234,15 +228,15 @@
             padding: 15px;
             border-radius: 15px;
             width: 280px;
-            height: 100px;
+            height: 110px;
             padding-top: 10px;
             h2{
-                font-size: 16px;
+                font-size: 1.2em;
                 color: #023e8a;
                 padding-bottom: 5px;
             }
             h3{
-                font-size: 12px;
+                font-size: 0.8em;
             }
         }
         .txt_plast{
@@ -250,15 +244,15 @@
             padding: 15px;
             border-radius: 15px;
             width: 280px;
-            height: 100px;
+            height: 110px;
             padding-top: 10px;
             h2{
-                font-size: 16px;
+                font-size: 1.2em;
                 color: #023e8a;
                 padding-bottom: 5px;
             }
             h3{
-                font-size: 12px;
+                font-size: 0.8em;
             }
         }
     }
@@ -300,15 +294,15 @@
             padding: 15px;
             border-radius: 15px;
             width: 280px;
-            height: 100px;
+            height: 110px;
             padding-top: 10px;
             h2{
-                font-size: 16px;
+                font-size: 1.2em;
                 color: #023e8a;
-                padding-bottom: 5px;
+                padding-top: 1px;
             }
             h3{
-                font-size: 12px;
+                font-size: 0.8em;
             }
         }
         .txt_organ{
@@ -316,15 +310,15 @@
             padding: 15px;
             border-radius: 15px;
             width: 280px;
-            height: 100px;
+            height: 110px;
             padding-top: 10px;
             h2{
-                font-size: 18px;
+                font-size: 1.2em;
                 color: #023e8a;
                 padding-bottom: 5px;
             }
             h3{
-                font-size: 12px;
+                font-size: 0.8em;
             }
         }
         .txt_eletro{
@@ -332,24 +326,23 @@
             padding: 15px;
             border-radius: 15px;
             width: 280px;
-            height: 100px;
+            height: 110px;
             padding-top: 5px;
             h2{
-                font-size: 18px;
+                font-size: 1.2em;
                 color: #023e8a;
                              
             }
             h3{
-                font-size: 12px;
+                font-size: 0.8em;
                 margin-bottom: 20px;
-                text-align: center;
                
             }
         }
     }
 }
 
-@media (max-width: 1180px){
+/*@media (max-width: 1180px){
     #papel{
         h2{
             font-size: 30px;
@@ -358,78 +351,78 @@
             font-size: 24px;
         }
     }
-}
+}*/
 
 @media (max-width: 1140px){
     .container1{
         margin-left: 1%;
         margin-right: 1%;
 
-        #papel{
-            width: 280px;   /*de 350 p/ 280px*/
-            height: 150px;   /*de 280 p/ 100px*/
+        /*#papel{
+            width: 280px;   
+            height: 150px;   
             margin-left: 3px;
 
             .txt_papel{
-                width: 170px;   /*de 280 p/ 170px*/
-                height: 90px;   /*de 100 p/ 65px*/
+                width: 170px;   
+                height: 90px;   
             }
         }
         #vidro{
-            width: 280px;   /*de 350 p/ 280px*/
-            height: 150px;   /*de 280 p/ 100px*/
+            width: 280px;   
+            height: 150px;   
             margin-left: 3px;
 
             .txt_vidro{
-                width: 170px;   /*de 280 p/ 170px*/
-                height: 90px;   /*de 100 p/ 65px*/
+                width: 170px;   
+                height: 90px;   
             }
         }
         #plastico{
-            width: 280px;   /*de 350 p/ 280px*/
-            height: 150px;   /*de 280 p/ 100px*/
+            width: 280px;   
+            height: 150px;   
             margin-left: 3px;
 
             .txt_plast{
-                width: 170px;   /*de 280 p/ 170px*/
-                height: 90px;   /*de 100 p/ 65px*/
+                width: 170px;   
+                height: 90px;   
             }
-        }
+        }*/
     }
     .container2{
         margin-left: 1%;
         margin-right: 1%;
 
-        #aluminio{
-            width: 280px;   /*de 350 p/ 280px*/
-            height: 150px;   /*de 280 p/ 100px*/
+        /*#aluminio{
+            width: 280px;   
+            height: 150px;   
             margin-left: 3px;
 
             .txt_metal{
-                width: 170px;   /*de 280 p/ 170px*/
-                height: 90px;   /*de 100 p/ 65px*/
+                width: 170px;   
+                height: 90px;   
             }
         }
         #organico{
-            width: 280px;   /*de 350 p/ 280px*/
-            height: 150px;   /*de 280 p/ 100px*/
+            width: 280px;   
+            height: 150px;   
             margin-left: 3px;
 
             .txt_organ{
-                width: 170px;   /*de 280 p/ 170px*/
-                height: 90px;   /*de 100 p/ 65px*/
+                width: 170px;   
+                height: 90px;   
             }
         }
         #eletronico{
-            width: 280px;   /*de 350 p/ 280px*/
-            height: 150px;   /*de 280 p/ 100px*/
+            width: 280px;   
+            height: 150px;   
             margin-left: 3px;
 
             .txt_eletro{
-                width: 170px;   /*de 280 p/ 170px*/
-                height: 90px;   /*de 100 p/ 65px*/
+                width: 170px;   
+                height: 90px;  
             }
-        }
+        }*/
     }
 }
 
@@ -482,25 +475,27 @@
 .moeda_verde{
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    padding-top: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-top: 40px;
     background-image: linear-gradient(to top, #1786f9, #d9d9d9);
     border-radius: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
     
+    
     img{
         width: 500px;
         height: 350px;
-        border-radius: 20px;
         margin-left: 100px;
-        padding-right: 30px;
+        border-radius: 20px;
+        padding-top: 10px;
         margin-bottom: 10px;
     }
 }
 #moeda{
     width: 500px;
-    margin-right: 100px;
+    margin-right: 7%;
    
     h2{
         font-size: 24px;
@@ -531,25 +526,25 @@
 .parceiro{
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    padding-top: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-top: 40px;
     background-image: linear-gradient(to top, #1786f9, #d9d9d9);
     border-radius: 20px;
     margin-bottom: 25px;
-    padding-top: 100px;
 
     img{
         width: 500px;
         height: 350px;
         margin-left: 100px;
         border-radius: 20px;
-        margin-top: -30px;
+        
         margin-bottom: 10px;
     }
 }
 #parce{
     width: 500px;
-    margin-right: 100px;
+    margin-right: 7%;
  
     h2{
         font-size: 24px;
@@ -581,23 +576,23 @@
 .mudanca{
     display: flex;
     justify-content: space-between;
-    margin:10px, auto;
+    margin-right: 1%;
+    margin-left: 1%;
     padding-top: 40px;
     background-image: linear-gradient(to top, #1786f9, #d9d9d9);
     border-radius: 20px;
-    padding-top: 100px;
 
     img{
         width: 500px;
         height: 350px;
         border-radius: 20px;
         margin-left: 100px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 }
 #mudan{
     width: 500px;
-    margin-right: 50px;
+    margin-right: 7%;
     h2{
         font-size: 24px;
         color: #023e8a;
