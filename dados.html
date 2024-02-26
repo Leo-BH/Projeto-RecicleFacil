@@ -36,22 +36,65 @@
   </nav>
 
   <main>
-    <section>
+
+     <!-- seção de dados pesoais -->
+    <div class="pessoais">
       <h2>Meus dados</h2>
-      <p>Nome: <span id="nome"></span></p>
+      <img src="imagens/imagemperfil.png" alt="imagemperfil" height="100" width="100">
+        <p> Nome: <span id="nome"></span> </p> 
       <p>CPF: <span id="cpf"></span></p>
-    </section>
+    </div>
 
-    <section>
-      <h2>Minhas Recompensas</h2>
+<!-- seção de recompensas calcula qunatidade de solicitação de coleta pelo site e de confirmação de ponto de coleta por cadastro de codigo  -->
+
+    <div class="recompensas">
+      <h2>Minhas Recompensas</h2> 
+      <p>Pontos de Coleta: <span id="pontosdecoleta"></span></p>
+      <p>Coleta Domiciliar: <span id="coletadomiciliar"></span></p>
       <p>Moedas verdes: <span id="moedas"></span></p>
-      <h3>Recompensas disponíveis</h3>
-      <div>
-        <p>Nome</p>
-        <p>Custo: <span class="custo"></span></p>
-      </div>
-    </section>
+    </div>
 
+<!-- seção das  trocas das correspondencias  com  imagem,  tipo de troca  e valor  -->
+
+     <div class="trocas">
+      
+        <h3> 
+          Recompensas Disponíveis para Troca
+        </h3>
+        <div class="troca">
+          <img src="imagens/ifood.jpeg" alt="ifood" height="100" width="100">
+          <h2> Desconto de 5% nas compras a partir de 200,00 no App</h2>
+          <p>Moeda Verde: 20<span class="custo"></span></p>
+        </div>
+        <div class="troca">
+          <img src="imagens/bilhete unico.jpeg" alt="bilheteunico" height="100" width="100">
+          <h2> Crédito de 5% do valor da sua recarga</h2>
+          <p>Moeda Verde: 20 <span class="custo"></span></p>
+        </div>
+        <div class="troca">
+          <img src="imagens/meradolivre.png" alt="mercadolivre" height="100" width="100">
+          <h2> Desconto de 5% nas compras a partir de 200,00 no App</h2>
+          <p>Moeda Verde: 20<span class="custo"></span></p>
+        </div>
+        <div class="troca">
+          <img src="imagens/taratarugacomlixo.jpg" alt="praialimpa" height="100" width="100">
+          <h2> Doe seu crédito para o Projeto Praia Limpa</h2>
+          <p>Moeda Verde: 20<span class="custo"></span></p>
+        </div>
+        <div class="troca">
+          <img src="imagens/entidade social.jpg" alt="creditocelular" height="100" width="100">
+          <h2>  Doe seu credito para o projeto Social que Apoiamos</h2>
+          <p>Moeda Verde: 20<span class="custo"></span></p>
+        </div>
+        <div class="troca">
+          <img src="imagens/plantearvore.png" alt="plantearvore" height="100" width="100">
+          <h2> Doe seu credito para o projeto plante uma arvore</h2>
+          <p>Moeda Verde: 20 <span class="custo"></span></p>
+        </div>
+              
+      </div>
+    
+<!-- seção de Historico pretendo colocar dashboards  apontando a particiapção e que vai interliga  com o nivel.. -->
     <section>
       <h2>Meu histórico</h2>
       <p><span class="acao">Ação: </span><span class="moedas-ganhas">Moedas ganhas</span></p>

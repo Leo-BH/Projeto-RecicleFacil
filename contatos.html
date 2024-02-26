@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre nós</title>
+  <title>Formulário de Contato</title>
   <link rel="stylesheet" href="recicle_facil.css/global.css">
   <link rel="stylesheet" href="recicle_facil.css/contatos.css">
 
@@ -36,27 +36,37 @@
   </nav>
 
   <main>
-    <form>
-      <label for="nome-contato">Nome:</label>
-      <br>
-      <input type="text" id="nome-contato">
-      <br>
-      <label for="email-contato">Email:</label>
-      <br>
-      <input type="email" id="email-contato">
-      <br>
-      <label for="tipo-contato">Motivo:</label>
-      <br>
-      <select id="tipo-contato">
+    <section>
+      <h2>Contato</h2>
+       <form action="https://api.staticforms.xyz/submit" method="post">
+       <label >Nome:</label>
+       <br>
+       <input type="text" name="nome" placeholder="Digite seu nome" required>
+       <br>
+
+       <label>E-mail:</label>
+       <br>
+       <input type="text" name="email" placeholder="Digite seu email" required>
+       <br>
+<!-- motivo do contato 
+       <label >Motivo:</label>
+       <br>
+       <select id="tipo-contato">
         <option value="sugestao">Sugestão</option>
         <option value="reclamacao">Reclamação</option>
         <option value="duvida">Dúvida</option>
-      </select>
-      <br>
-      <label for="mensagem-contato">Mensagem: </label>
-      <br>
-      <textarea type="text" id="mensagem-contato"></textarea>
+       </select>
+       <br> -->
+
+      <label> Mensagem: </label>
+      <br> 
+      <textarea name="message" cols="30" rows="10" placeholder=" Digite sua mensagem" required></textarea>
+      <button type="submit"> Enviar</button>
+
+      <input type="hidden" name="accessKey" value="00ba45ab-d66c-487b-826f-550401cd1629">    </input>
+      <input type="hidden" name="redirectTo" value="http://127.0.0.1:8081/Obrigado.html">
     </form>
+  </section>
   </main>
 
   <footer>

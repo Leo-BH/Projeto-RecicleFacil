@@ -79,17 +79,47 @@ document.getElementById("nome").addEventListener("input", function() {
 });
 });
 
-function validarNome() {
-var nomeInput = document.getElementById("nome").value.trim();
+//---------------- validação de nome -----------------------//
+  const inputNome = document.getElementById('nome');
+    const popup = document.querySelector('.popup');
 
-// Expressão regular para validar nome completo (sem números e símbolos)
-var regexNome = /^[^\d\s!@#$%^&*()_+={}\[\]|\\:;"'<>,.?/~`]+$/;
+    inputNome.addEventListener('input', validateInput);
 
-if (nomeInput === "" || !regexNome.test(nomeInput)) {
-  document.querySelector(".popup").textContent = "* Caracteres inválidos";
-  document.querySelector(".popup").style.display = "inline";
-} else {
-  document.querySelector(".popup").style.display = "none";
-  alert("Nome completo válido: " + nomeInput);
-}
-}
+    document.getElementById('submit').addEventListener('click', function(event) {
+        validateInput();
+        if (popup.style.display !== 'none') {
+            event.preventDefault(); // Evita que o formulário seja enviado se houver erros
+        }
+    });
+
+    function validateInput() {
+        const nome = inputNome.value.trim();
+
+        if (nome.length === 0) {
+            showPopup('*Campo obrigatório');
+            inputNome.classList.add('input-error');
+        } else if (/[^a-zA-Z\s]/.test(nome)) {
+            showPopup('*Caractere Inválido');
+            inputNome.classList.add('input-error');
+        } else {
+            const palavras = nome.split(' ').filter(palavra => palavra.trim() !== '');
+
+            if (palavras.length < 2) {
+                showPopup('*Nome inválido');
+                inputNome.classList.add('input-error');
+            } else {
+                hidePopup();
+                inputNome.classList.remove('input-error');
+            }
+        }
+    }
+
+    function showPopup(message) {
+        popup.innerText = message;
+        popup.style.display = 'inline';
+    }
+
+    function hidePopup() {
+        popup.style.display = 'none';
+    }
+//---------------- validação de CPF -----------------------//

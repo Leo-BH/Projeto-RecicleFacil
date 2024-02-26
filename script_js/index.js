@@ -13,4 +13,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         document.getElementById("radio" + count).checked = true;
     }
-});
+}
+);
