@@ -83,9 +83,10 @@ nav {
     }    
 }
 
-@media (max-width: 970px){
+@media (max-width: 975px){
     nav{
         height: 10vh;
+        width: 100%;
 
         .links{
             display: none;
@@ -156,4 +157,19 @@ span{
     transform: scale(1.4);
     width: 30px;
     height: 30px;
+}
+
+@media (max-width: 920px){
+    .cont{
+        display: none;
+    }
+    .redes{
+        margin-right: 5%;
+    }
+}
+@media (max-width: 975px){
+    footer{
+        height: 8vh;
+        width: 100%;
+    }
 }
