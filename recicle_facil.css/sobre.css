@@ -81,6 +81,7 @@
 
 section#princ {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     
     img {
@@ -91,33 +92,45 @@ section#princ {
 }
 
 #sobre{
-    align-items: center;
-    text-align: center;
-
-         h1 {text-align: left;
-        font-size: 26px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: rgba(2, 62, 138, 1);
-            }
-       }
- 
-   h3{
-    height: auto; 
-    width: 900px;
-    color: #582f0e;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans  Unicode', Geneva,      Verdana, sans-serif;
-    text-align: justify;
-    padding: 50px;
-    align-items: center;
-    justify-content: center;
+    max-width: 1200px;
     margin: auto;
-   }
+    border: solid, 3px #1786f9;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;        
+    h1{
+        font-size: 2.5em;
+        font-family: "Poppins", sans-serif;
+        color:#023e8a;
+        padding: 20px;
+        padding-top: 10px;
+        
+    }
+    p{
+        height: auto; 
+        width: 1200px;
+        color: #000;
+        font-family: "Poppins" , sans-serif;
+        text-align: justify;
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-size: 1.5em;
+       }
+}
+   
+
 .principios{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     margin: auto;
+    width: 900px;
+    background: #d9d9d9;
+}  
+
 
 
 .missao{
@@ -126,6 +139,20 @@ section#princ {
     align-items: center;
     padding: 20px;
     margin: auto;
+    width: 1200px;
+    background: #d9d9d9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+     img{
+        width: 350px;
+        height: 280px;
+        border-radius: 20px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+     }
+   
 }
     #missao{
      display: flex;
@@ -133,6 +160,19 @@ section#princ {
      align-items: center;
      padding: 20px;
      margin: auto;
+     p{
+        font-size: 1.5em;
+        color: #000;
+        padding-bottom: 5px;
+        font-family: "Roboto", sans-serif;
+     }
+     h2{
+        font-size: 2.5em;
+        color: #023e8a;
+        padding-bottom: 5px;
+        font-family: "Roboto", sans-serif;
+     }
+     
      }
 
  .visao{
@@ -141,22 +181,71 @@ section#princ {
     align-items: center;
     padding: 20px;
     margin: auto;
-    }  
+    width: 1200px;
+    background: #d9d9d9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    img{
+        width: 350px;
+        height: 280px;
+        border-radius: 20px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+     }
+     h2{
+        font-size: 1.2em;
+        color: #023e8a;
+        padding-bottom: 5px;
+        font-family: "Roboto", sans-serif;
+     }
+     
+     }
+     
+      
 
    #visao{
      display: flex;
      justify-content: space-around;
      align-items: center;
-     padding: 20px;
+     padding: 30px;
      margin: auto;
+     margin-left: 20px;
+     p{
+        font-size: 1.2em;
+        color: #000;
+        padding-bottom: 5px;
+        font-family: "Roboto", sans-serif;
+     }
+     h2{
+        font-size: 2.5em;
+        color: #023e8a;
+        padding-bottom: 5px;
+        font-family: "Roboto", sans-serif;
+     }
     }
 
  .valores{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px;
-        margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 1200px;
+    background: #d9d9d9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+        img{
+            width: 350px;
+            height: 280px;
+            border-radius: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+         }
+
  }     
        #valores{
          display: flex;
@@ -164,6 +253,43 @@ section#princ {
          align-items: center;
          padding: 20px;
          margin: auto;
-    
+         ul{
+            font-size: 1.2em;
+            color: #000;
+            padding-bottom: 5px;
+            font-family: "Roboto", sans-serif;
+         }
+         h2{
+            font-size: 2.5em;
+            color: #023e8a;
+            padding-bottom: 5px;
+            font-family: "Roboto", sans-serif;
+         }
         }
-    }
+    
+#equipe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 1200px;
+    background: #d9d9d9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+        img{
+            width: 350px;
+            height: 280px;
+            border-radius: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+         }
+         ul{
+            font-size: 1.2em;
+            color: #000;
+            padding-bottom: 5px;
+            font-family: "Roboto", sans-serif;
+         }
+}
