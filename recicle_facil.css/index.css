@@ -449,45 +449,6 @@
     }
 }
 
-/*@media(max-width: 970px){
-    .container1{
-        flex-direction: column;
-    }
-    #papel{
-        width: 350px;
-        height: 280px;
-        margin-top: 20px;
-    }
-    #vidro{
-        width: 350px;
-        height: 280px;
-        margin-top: 20px;
-    }
-    #plastico{
-        width: 350px;
-        height: 280px;
-        margin-top: 20px;
-    }
-    .container2{
-        flex-direction: column;
-    }
-    #aluminio{
-        width: 350px;
-        height: 280px;
-        margin-top: 20px;
-    }
-    #organico{
-        width: 350px;
-        height: 280px;
-        margin-top: 20px;
-    }
-    #eletronico{
-        width: 350px;
-        height: 280px;
-        margin-top: 20px;
-    }    
-}*/
-
 /*Terceira seção*/
 
 #pilares{
@@ -684,4 +645,31 @@
             margin-right: 15%;
         }
     }
+}
+
+@media (max-width: 665px){
+    .moeda_verde{
+        width: 100%;
+    }
+    .moeda_verde img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .parceiro{
+        width: 100%;
+    }
+    .parceiro img{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .mudanca{
+        width: 100%;
+    }
+    .mudanca img{
+        width: 400px;
+        height: 300px;
+    }
+    
 }
