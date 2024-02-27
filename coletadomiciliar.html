@@ -8,7 +8,11 @@
   <title>Página Inicial</title>
   <link rel="stylesheet" href="recicle_facil.css/global.css">
   <link rel="stylesheet" href="recicle_facil.css/coletadomiciliar.css">
-
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!--link ionicons-->
   <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
   <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -43,121 +47,120 @@
           Solicite uma Coleta Domiciliar
         </h1>
       
-        <h2>
+        <p>
           Através do seu comprometimento com a solicitação de um coletor domiciliar, você está liderando uma mudança positiva, mostrando que pequenas ações individuais podem gerar um grande impacto coletivo.
-        </h2>
+        </p>
+        <div class="buscaColetores">
         <img alt="Coletores" src="imagens/coletor de lixo de moto_reduz.jpg" width="900" height="auto">
-
-    </section >
-        <section id= buscaColetor>
-          <h1>Como encontrar um  Coletor Parceiro?</h1>
-          <div class="pesquisa"> 
-              <ol>  
-                <li>
-                    Inicie a pesquisa, digite o endereço desejado onde você está procurando um coletor parceiro.       
-                </li>
-                <li>
-                    Em seguida, escolha o tipo de material que você deseja descartar/reciclar.
-                </li>
-                <li>
-                    Isso pode incluir opções como papel, plástico, vidro, metal, orgânicos, entre outros.
-                </li>
-                <li>
-                    Visualize os resultados da sua pesquisa.
-                </li>
-                <li>
-                    Eles seram exibidos em uma lista, mostrando os pontos de coleta disponíveis para o tipo de material selecionado.
-                </li>
-              </ol>
-          </div>
-        </section>
-
-    <!--Formulario para a busca dos coletores --> 
-    <section id="formColetor">   
-      <div>
-        <form action="coletor"> 
-         <h1>Solicite Aqui</h1>
-
-    <section class="formBusca">
-      <h2>Faça sua busca por um coletor parceiro.</h2>
-
-     <section action="Buscar Coletor">
-
-       <label for="state">Estado:</label><br>
-       <input type="text" id="state"      name="state"><br>
-
-       <label for="city">Cidade:</label><br>
-       <input type="text" id="city"  name="city"><br>
-
-      <label for="cars">Tipo de Material</label>
-       <select name="type of material" id="material" form="Tipo de Material">
-       <option value="paper">Papel/Papelão</option>
-       <option value="plastic">Plástico</option>
-       <option value="glass">Vidro</option>
-       <option value="metal">Metal</option>
-       <option value="organic">Orgânico</option>
-      <option value="eletronic">Eletrônico</option>
-      
-      <input type="submit" value="Solicitar coleta">
-              
-    </section>
-        </form>
-
       </div>
-    </section>
-    
+   </section >
+  <!--Instruções para Busca Pontos de Coleta-->  
+    <section id= buscaColetor>
+      <h1>Como encontrar um  Coletor Parceiro?</h1>
+       <div class="pesquisa"> 
+        <ol>  
+           <li>
+           Inicie a pesquisa, digite o endereço desejado onde você está procurando um coletor parceiro.       
+           </li><br>
+           <li>
+           Em seguida, escolha o tipo de material que você deseja descartar/reciclar.
+           </li><br>
+           <li>
+           Isso pode incluir opções como papel, plástico, vidro, metal, orgânicos, entre outros.
+           </li><br>
+           <li>
+           Visualize os resultados da sua pesquisa.
+           </li><br>
+           <li>
+           Eles seram exibidos em uma lista, mostrando os pontos de coleta disponíveis para o tipo de material selecionado.
+           </li><br>
+       </ol>
+       </div>
+      </section>
+
+    <!--Busca Pontos de coleta-->
+  <section class="formBusca">
+    <h1>Encontre  Aqui !</h1>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+      <div>
+      <label for="estado">Estado:</label>
+        <select name="estado" id="est">
+         <option value="">--Escolha--</option>
+         <option value="BA">Bahia</option>
+         <option value="CE">Ceará</option>
+         <option value="MG">Minas Gerais</option>
+         <option value="RJ">Rio de Janeiro</option>
+         <option value="SP">São Paulo</option>
+        </select>
+       <br>
+       <label for="cidade">Cidade:</label>
+        <input type="text" id="cid" name="cidade"> <br>
+        <label for="materiais">Tipo de material:</label>
+        <select name="materiais" id="mat">
+         <option value="">--Escolha--</option>
+         <option value="papel">Papel</option>
+         <option value="metal">Metal</option>
+         <option value="plast">Plástico</option>
+         <option value="vidro">Vidro</option>
+         <option value="organ">Orgânico</option>
+         <option value="eletr">Eletrônicos</option>
+        </select> <br>
+        <button type="submit"> Enviar</button>
+      </div>
+    </form>
+  </section>
+ 
 
 <!--Resultado da busca de coletores -->
 <!--Div com os cadastros dos coletores parceiros  informativo + imagem-->
 
     <section id="cadastroColetor"> 
        <div class="container1">
-            <div class="maria">
+          <div class="maria">
               <div id="imagem_maria">
-                <img src="imagens/ana paula padrao_reduz.jpg"  height="250px" width="250px">
+               <img src="imagens/ana paula padrao_reduz.jpg"  height="150px" width="150px">
               </div>
               <div id="txt_maria">
-                    <h2>Maria Aparecida</h2>
-                    <h3> Perfil: 35 anos, trabalha na reciclagem de papel.
-                    Experiência: Atua há 7 anos na coleta e separação de papel.
-                    Motivação: Procura por papelão, revistas e jornais para reciclar.
-                    </h3>
+               <h2>Maria Aparecida</h2>
+               <h3> Perfil: 35 anos, trabalha na reciclagem de papel.
+               Experiência: Atua há 7 anos na coleta e separação de papel.
+               Motivação: Procura por papelão, revistas e jornais para reciclar.
+               </h3>
               </div>
               <div id="botao_maria">
-                  <a href="link_maria"><strong>Veja mais informações</strong></a>
+                 <a href="link_maria"><strong>Veja mais informações</strong></a>
               </div>
-            </div>  
+          </div>  
     
             <div class="joao">
                 <div id="imagem_joao">
-                    <img src="imagens/joao paulo_reduz.jpg"  height="250px" width="250px">
+                    <img src="imagens/joao paulo_reduz.jpg"  height="150px" width="150px">
                 </div>
                 <div id="txt_joao">
-                    <h2>João Paulo</h2>
-                    <h3>Perfil: 40 anos, especializado na reciclagem de plástico.
-                        Experiência: Trabalha há 10 anos coletando e separando plásticos.
-                        Motivação: Busca garrafas PET, sacolas plásticas e embalagens para reciclar.
-                    </h3>
+                 <h2>João Paulo</h2>
+                 <h3>Perfil: 40 anos, especializado na reciclagem de plástico.
+                 Experiência: Trabalha há 10 anos coletando e separando plásticos.
+                 Motivação: Busca garrafas PET, sacolas plásticas e embalagens para reciclar.
+                 </h3>
                 </div>
                 <div id="botao_joao">
-                    <a href="link_joao"><strong>Veja mais informações</strong></a>
+                  <a href="link_joao"><strong>Veja mais informações</strong></a>
                 </div>
             </div>  
-
             <div class="paulo">
-                <div id="imagem_paulo">
-                    <img src="imagens/Paulo machado_reduz.jpg"  height="250px" width="250px">
-                </div>
-                <div id="txt_paulo">
+              <div id="imagem_paulo">
+                <img src="imagens/Paulo machado_reduz.jpg"  height="150px" width="150px">
+              </div>
+              <div id="txt_paulo">
                     <h2>Paulo Machado</h2>
                     <h3>Perfil: 30 anos, concentra-se na reciclagem de vidro.
                         Experiência: Tem 5 anos de experiência coletando vidro.
                         Motivação: Coleta garrafas, potes e frascos de vidro.
                     </h3>
-                </div>
-                <div id="botao_paulo">
+              </div>
+              <div id="botao_paulo">
                     <a href="link_joao"><strong>Veja mais informações</strong></a>
-                </div>
+              </div>
             </div>  
        </div>
       
@@ -165,7 +168,7 @@
        <div class="container2">
           <div class="jose">
                 <div id="imagem_jose"> 
-                 <img src="imagens/jose augusto.jpg" height="250px" width="250px">
+                 <img src="imagens/jose augusto.jpg" height="150px" width="150px">
                 </div>
             <div id="txt_jose">
             <h2>José Augusto</h2>
@@ -182,7 +185,7 @@
           </div>
         <div class="cataki">
           <div id="imagem_cataki">
-            <img src="imagens/Esteira  catadores separando lixo.jpg"  height="250px" width="250px">
+            <img src="imagens/Esteira  catadores separando lixo.jpg"  height="150px" width="150px">
           </div>
           <div id="txt_cataki">
             <h2>Cataki</h2>
@@ -197,7 +200,7 @@
 
         <div class="fuca">
           <div id="imagem_fuca">
-            <img src="imagens/container  com lixos separados.jpg" height="250px" width="250px">
+            <img src="imagens/container  com lixos separados.jpg" height="150px" width="150px">
           </div>
           <div id="txt_fuca">
             <h2>Fuça_Fuça </h2>
@@ -206,7 +209,7 @@
             Motivação: Coleta garrafas, potes e frascos de vidro.
             </h3>
             <div id="botao_fuca">
-              <a href="link_fuca"><strong>Veja mais informações</strong></a>
+             <a href="link_fuca"><strong>Veja mais informações</strong></a>
             </div> 
           </div>  
         </div>
