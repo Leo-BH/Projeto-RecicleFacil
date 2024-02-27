@@ -4,12 +4,10 @@
 * {
   margin: 0;
   padding: 0;
-  
-}
+ }
 main {
   display: flex;
   flex-direction: column;
-  
   text-align: center;
   padding: 30px;
   margin: auto;
@@ -26,13 +24,13 @@ main {
       font-family:"Poppins", sans-serif;
       font-size: 1.5em;
       text-align: justify;
-      padding: 30px;
+      padding: 10px;
       align-items: center;
       justify-content: center;
-      margin:20px, auto;
+      margin: 20px, auto;
       text-align: center;
       margin-top: 50px;
-      margin-bottom: 150px;
+      margin-bottom: 50px;
      }
      h1{
       font-family: "Poppins", sans-serif;
@@ -67,11 +65,13 @@ main {
       margin-left: 80px;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
+      font-style: italic;
+      font-weight: 300;
     }
     h1{
       font-family: "Poppins", sans-serif;
       color:#023e8a;
-      font-size: 2em;
+      font-size: 2.5em;
       margin-top: 30px;
       margin-bottom: 30px;
       text-align: center;

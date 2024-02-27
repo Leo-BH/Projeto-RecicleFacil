@@ -106,7 +106,7 @@
     margin-left: 10%;
     margin-right: 10%;        
     h1{
-        font-size: 3em;
+        font-size: 2.5em;
         font-family: "Poppins", sans-serif;
         color:#023e8a;
         padding: 20px;
@@ -114,7 +114,7 @@
         
     }
 }
-    h3{
+   p{
         text-align: justify;
         font-family: "Poppins", sans-serif;
         font-size: 1.2em;
