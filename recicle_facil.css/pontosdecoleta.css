@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -11,6 +12,8 @@ main {
   padding: 30px;
   margin: auto;
   background-color:floralwhite;
+}
+
 #inicio {
     align-items: center;
     text-align: center;
@@ -43,7 +46,7 @@ main {
       width: 1000px;
       margin-bottom: 50px;
    }
- }
+}
  
 #buscaPonto{
     display: block;
