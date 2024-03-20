@@ -8,7 +8,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family:'Inter', sans-serif;
 }
 
 
@@ -18,13 +18,17 @@ nav {
     justify-content:space-between;
     padding: 15px;
     align-items: center;
-    height: 14vh;
+    height: 11vh;
     left: auto;
-    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 10%;    
 
     img {
-        height: 150px;
-        left: 150px;
+        height: 100px;
+        left: 100px;
         margin-top: 1%;
         margin-bottom: 1%;
     }
@@ -37,9 +41,9 @@ nav {
         text-align: center;
         align-items: center;
         display: flex;
-        justify-content:center;
-        gap: 5px;
-        margin-right: 10px;
+        justify-content:space-around;
+        gap: 4px;
+        margin-right: 20px;
 
         #log{
             background-color: #023e8a;
@@ -107,8 +111,8 @@ footer {
     padding: 20px;
        
     img {
-        height: 100px;
-        left: 100px;
+        height: 140px;
+        left: 140px;
     }
     
 }

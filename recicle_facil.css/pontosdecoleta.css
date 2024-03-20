@@ -3,20 +3,21 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
+
 main {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 30px;
   margin: auto;
- 
-} 
+  background-color:floralwhite;
+}
+
 #inicio {
     align-items: center;
     text-align: center;
-    margin-top: 40px;
+    padding-top: 7%;
     p{  
       height: 50px; 
       width:60%vw;
@@ -30,7 +31,7 @@ main {
       margin:20px, auto;
       text-align: center;
       margin-top: 50px;
-      margin-bottom: 150px;
+      margin-bottom: 30px;
      }
     h1{
       font-family: "Poppins", sans-serif;
@@ -41,15 +42,15 @@ main {
     }
     img{
       border-radius: 20px;
-      height: 50%vh;
-      width: 50%vw;
+      height: 500px;
+      width: 1000px;
       margin-bottom: 50px;
    }
- }
+}
  
-.buscaPonto{
+#buscaPonto{
     display: block;
-    width: 1300px;
+    width: 1200px;
     height: 400px;  
     color: #000;
     font-family:'Poppins', sans-serif;
@@ -59,11 +60,12 @@ main {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 150px;
+    margin-left: 3.5%;
     text-align: left;
     align-items: center;
 
      li{
+      margin-top: 1%;
       margin-left: 80px;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
@@ -73,7 +75,7 @@ main {
       color:#023e8a;
       font-size: 2em;
       margin-top: 30px;
-      margin-bottom: 30px;
+      margin-bottom: 60px;
       text-align: center;
     }
   }  
@@ -150,75 +152,19 @@ p{
    margin: auto;
    
 }
-.section{
-display: flex;
-flex-direction: column;
-background:aliceblue;
-margin-bottom: 50px;
-height: 350px;
-width: 600px;
-align-items: center;
-margin-left: 500px;
-border-radius: 20px;
-overflow-y: scroll;
-border-radius: 30px;
-  .box {
-  display: flex;
-  flex-direction: column;
-  height:400px; 
-  width: 300px;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: whitesmoke;
- 
-   }
-   h1{
-    font-family:"Roboto" sans-serif;
-    color: #023e8a;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-style: italic;
-    font-size: 22px;
-   }
-   h2{
-   font-family:"Roboto" sans-serif;
-   color:black;
-   font-style: italic;
-   font-size: 16px;
-   margin-bottom: 10px;
-    
-   }
-   img {
-    margin: auto;
-    margin-top: 15px;
-   
-  }
-   button{
-    padding: 8px;
-    background-color: #38b000;
-    color: aliceblue;
-    width: 100px;
-    align-items: center;
-    margin-bottom: 5px;
-    border-radius: 20px;
-    margin-left: 100px;
-  }
- }
 
 .pontosdeColeta {
   display: flex;
   flex-direction: column;
-  width: 1300px;
+  width: 1280px;
   background-color: aliceblue;
   margin-bottom: 50px;
-  margin-left: 100px;
+  align-items: center;
   border-radius: 20px;
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
   justify-content: space-between;
- 
+  text-align: center;
+  height: 500px;
 
   h1{ font-family:"Roboto" sans-serif;
     color: #023e8a;
@@ -245,5 +191,62 @@ border-radius: 30px;
     .box{
      margin-top: 40px;
     }
- }
+  
+  .slider{
+      display: flex;
+      flex-direction: column;
+      background:aliceblue;
+      margin-bottom: 20px;
+      height: 350px;
+      width: 350px;
+      align-items: center;
+      margin-left: 5%;
+      border-radius: 20px;
+      overflow-y: scroll;
+      border-radius: 30px;
+  
+      .box {
+            display: flex;
+            flex-direction: column;
+            height:400px; 
+            width: 300px;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+            margin-top: 13px;
+            margin-bottom: 30px;
+            background-color: whitesmoke;
+            }
+            h1{
+              font-family:"Roboto" sans-serif;
+              color: #023e8a;
+              margin-top: 5px;
+              margin-bottom: 5px;
+              font-style: italic;
+              font-size: 22px;
+            }
+            h2{
+            font-family:"Roboto" sans-serif;
+            color:black;
+            font-style: italic;
+            font-size: 16px;
+            margin-bottom: 10px;
+            }
+            img {
+              margin: auto;
+              margin-top: 15px;
+            
+            }
+            button{
+              padding: 8px;
+              background-color: #38b000;
+              color: aliceblue;
+              width: 100px;
+              align-items: center;
+              margin-bottom: 5px;
+              border-radius: 20px;
+              margin-left: 100px;
+            }
+  }
+}
 
