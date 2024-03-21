@@ -11,13 +11,14 @@ main {
   text-align: center;
   padding: 30px;
   margin: auto;
+  background-color:floralwhite;
 }
 
-  #inicio{
-     align-items: center;
-     text-align: center;
-     margin-top: 40px;      
-     p{  
+#inicio{
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;      
+    p{  
       height: 50px; 
       width:60%vw;
       color: #000;
@@ -31,8 +32,8 @@ main {
       text-align: center;
       margin-top: 50px;
       margin-bottom: 50px;
-     }
-     h1{
+    }
+    h1{
       font-family: "Poppins", sans-serif;
       color:#023e8a;
       font-size: 2em;
@@ -44,9 +45,9 @@ main {
       height: 50%vh;
       width: 50%vw;
       margin-bottom: 50px;
-   }
-  }
- #buscaColetor{
+    }
+}
+#buscaColetor{
    
     display: block;
     width: 70%vw;
@@ -61,7 +62,7 @@ main {
     margin-bottom: 50px;
     text-align: left;
 
-     li{
+    li{
       margin-left: 80px;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
@@ -76,9 +77,9 @@ main {
       margin-bottom: 30px;
       text-align: center;
     }
-  }  
+}  
 
-  .formBusca {
+.formBusca {
     height: 400px; 
     width: 800px;
     margin: auto;
@@ -89,15 +90,15 @@ main {
     gap: 10px , 10px;
     background-color:#d9d9d9;
 
-      h1 {
+    h1{
     color: #023e8a;
     margin-top: 30px; 
     margin-bottom: 30px;
     text-align: center;
     font-style: italic;
     font-size: 30px;
-    } 
-     label {
+    }
+    label{
     font-family: "Poppins", sans-serif;
     font-size: 1.2em;
     margin-bottom: 30px;
@@ -105,42 +106,38 @@ main {
     line-height: 35px;
     height: 50px;
     width: 125px;
-    
-   }
-   input{
-    
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 30px;
-    width: 150px;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-   }
-   option{
-    
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 30px;
-    width: 150px;
-    align-items: center;
-   }
-   select {
-    padding: 5px;
-    align-items: center;
-    margin-left: 5px;
-   }
+    }
+    input{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 30px;
+      width: 150px;
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+    }
+    option{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 30px;
+      width: 150px;
+      align-items: center;
+    }
+    select{
+      padding: 5px;
+      align-items: center;
+      margin-left: 5px;
+    }
    
-   button{
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-  }
-  }
+    button{
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+}
 
  
-#cadastroColetor{
+#resultado_coletores{
   
   justify-content: space-around; 
   padding: 30px;
@@ -254,100 +251,6 @@ main {
   */
    
 .maria{
- display: flex; 
- flex-direction: row-reverse;
- align-items: center;
- box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
- padding: 50px;
- border-radius: 20px;
- margin-top: 15px;
- margin-bottom: 10px;
-h3{
-  font-family:"Roboto" sans-serif;
-   color:black;
-   font-style: italic;
-   font-size: 16px;
-   width: 700px;
-   margin-left: 30px;
-   margin-right: 30px;
-   }  
-    h2{
-    font-family:"Roboto" sans-serif;
-    color: #023e8a;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-style: italic;
-    }  
-  
-   a{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #38b000;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-   
-   
-    }
-    h3{
-      font-family:"Roboto" sans-serif;
-       color:black;
-       margin-top: 10px;
-       margin-bottom: 10px;
-       font-style: italic;
-       font-size: 16px;
-         
-
-}
-}
-.joao{
-  display: flex; 
- flex-direction: row-reverse;
- align-items: center;
- box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
- padding: 50px;
- border-radius: 20px;
- margin-top: 15px;
- margin-bottom: 10px;
-h3{
-  font-family:"Roboto" sans-serif;
-   color:black;
-   font-style: italic;
-   font-size: 16px;
-   width: 700px;
-   margin-left: 30px;
-   margin-right: 30px;
-   }  
-    h2{
-    font-family:"Roboto" sans-serif;
-    color: #023e8a;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-style: italic;
-    }  
-  
-   a{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #38b000;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-   
-   
-    }
-    h3{
-      font-family:"Roboto" sans-serif;
-       color:black;
-       margin-top: 10px;
-       margin-bottom: 10px;
-       font-style: italic;
-       font-size: 16px;
-         
-
-}
-}
- .paulo{
   display: flex; 
   flex-direction: row-reverse;
   align-items: center;
@@ -356,191 +259,240 @@ h3{
   border-radius: 20px;
   margin-top: 15px;
   margin-bottom: 10px;
- h3{
-   font-family:"Roboto" sans-serif;
+  background-color: aliceblue;
+
+  h3{
+    font-family:"Roboto" sans-serif;
     color:black;
     font-style: italic;
     font-size: 16px;
     width: 700px;
     margin-left: 30px;
     margin-right: 30px;
-    }  
-     h2{
-     font-family:"Roboto" sans-serif;
-     color: #023e8a;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     font-style: italic;
-     }  
-   
-    a{
-     padding: 10px;
-     border-radius: 10px;
-     background-color: #38b000;
-     color: white;
-     margin-top: 5px;
-     margin-bottom: 5px;
-    
-    
-     }
-     h3{
-       font-family:"Roboto" sans-serif;
-        color:black;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-style: italic;
-        font-size: 16px;
-          
- 
- }
- }
- .jose{
-  display: flex; 
- flex-direction: row-reverse;
- align-items: center;
- box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
- padding: 50px;
- border-radius: 20px;
- margin-top: 15px;
- margin-bottom: 10px;
-h3{
-  font-family:"Roboto" sans-serif;
-   color:black;
-   font-style: italic;
-   font-size: 16px;
-   width: 700px;
-   margin-left: 30px;
-   margin-right: 30px;
-   }  
-    h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2{
     font-family:"Roboto" sans-serif;
     color: #023e8a;
     margin-top: 10px;
     margin-bottom: 10px;
     font-style: italic;
-    }  
+  }  
   
-   a{
+  a{
     padding: 10px;
     border-radius: 10px;
     background-color: #38b000;
     color: white;
     margin-top: 5px;
-    margin-bottom: 5px;
-    
-   
-   
-    }
-    h3{
-      font-family:"Roboto" sans-serif;
-       color:black;
-       margin-top: 10px;
-       margin-bottom: 10px;
-       font-style: italic;
-       font-size: 16px;
-         
-
+    margin-bottom: 5px; 
+  }
 }
-}
- .cataki{
+.joao{
   display: flex; 
- flex-direction: row-reverse;
- align-items: center;
- box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
- padding: 50px;
- border-radius: 20px;
- margin-top: 15px;
- margin-bottom: 10px;
-h3{
-  font-family:"Roboto" sans-serif;
-   color:black;
-   font-style: italic;
-   font-size: 16px;
-   width: 700px;
-   margin-left: 30px;
-   margin-right: 30px;
-   }  
-    h2{
-    font-family:"Roboto" sans-serif;
-    color: #023e8a;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-style: italic;
-    }  
-  
-   a{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #38b000;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-   
-   
-    }
-    h3{
-      font-family:"Roboto" sans-serif;
-       color:black;
-       margin-top: 10px;
-       margin-bottom: 10px;
-       font-style: italic;
-       font-size: 16px;
-         
+  flex-direction: row-reverse;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
 
-}
-}
- .fuca{
-  display: flex; 
- flex-direction: row-reverse;
- align-items: center;
- box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
- padding: 50px;
- border-radius: 20px;
- margin-top: 15px;
- margin-bottom: 10px;
   h3{
-  font-family:"Roboto" sans-serif;
-   color:black;
-   font-style: italic;
-   font-size: 16px;
-   width: 700px;
-   margin-left: 30px;
-   margin-right: 30px;
-   }  
-    h2{
+    font-family:"Roboto" sans-serif;
+    color:black;
+    font-style: italic;
+    font-size: 16px;
+    width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2{
+    font-family:"Roboto" sans-serif;
+    color: #023e8a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }  
+  
+  a{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #38b000;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+.paulo{
+  display: flex; 
+  flex-direction: row-reverse;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+
+  h3{
+    font-family:"Roboto" sans-serif;
+    color:black;
+    font-style: italic;
+    font-size: 16px;
+    width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2{
+    font-family:"Roboto" sans-serif;
+    color: #023e8a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }  
+   
+  a{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #38b000;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+.jose{
+  display: flex; 
+  flex-direction: row-reverse;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+
+  h3{
+    font-family:"Roboto" sans-serif;
+    color:black;
+    font-style: italic;
+    font-size: 16px;
+    width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2{
+    font-family:"Roboto" sans-serif;
+    color: #023e8a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }  
+  
+  a{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #38b000;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+  }
+
+}
+.cataki{
+  display: flex; 
+  flex-direction: row-reverse;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+
+  h3{
+    font-family:"Roboto" sans-serif;
+    color:black;
+    font-style: italic;
+    font-size: 16px;
+    width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2{
+    font-family:"Roboto" sans-serif;
+    color: #023e8a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  a{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #38b000;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+    
+}
+.fuca{
+  display: flex; 
+  flex-direction: row-reverse;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+
+  h3{
+    font-family:"Roboto" sans-serif;
+    color:black;
+    font-style: italic;
+    font-size: 16px;
+    width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2{
     font-family:"Roboto" sans-serif;
     color: #023e8a;
     margin-top: 10px;
     margin-bottom: 10px;
     font-style: italic;   
-    }  
+  }  
   
-   a{
+  a{
     padding: 10px;
     border-radius: 10px;
     background-color: #38b000;
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
-    
-   
-   
-    }
-    h3{
-      font-family:"Roboto" sans-serif;
-       color:black;
-       margin-top: 10px;
-       margin-bottom: 10px;
-       font-style: italic;
-       font-size: 16px;
-         
+  }
 
-}
 }
 img{
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-}
-h3{
-  text-align: left;
 }
